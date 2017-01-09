@@ -1,0 +1,9 @@
+%Recollect Version 2.0. Scene/Level: span0_intro, Game Number: 123
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%NBackObject:0,Current N Level,Is Correct,Should Be Picked Up,Type,Time of Reveal (R),Time of Reveal (A),Time of Death (R),Time of Death (A)
+%Possible values for "Type":Blue=0,Yellow=1,Green=2,Pink=3,White=4,Gray=5,Brown=6,Purple=7,None=8,
+0,1,1,0,6,0.04840,1479343197083.58,1.43347,1479343198461.77
+0,1,0,0,5,1.33362,1479343198361.59,3.04138,1479343200097.11
+0,1,1,0,7,3.76703,1479343200796.17,6.33386,1479343203363.05
+0,0,0,0,5,6.23383,1479343203262.73,7.94141,1479343204999

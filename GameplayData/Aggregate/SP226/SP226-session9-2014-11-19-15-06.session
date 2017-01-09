@@ -1,0 +1,45 @@
+% Session Log: 
+% debug seed: 1416438419
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Holdout, 4=Recess }
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% TP - Total Picked and Match { 0, inf }
+% FP - Total Picked and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% Score - Player points earned in level
+%
+% SessionNumber EventNumber LevelNumber TaskType Duration TSin TSout N-Back Rep RunSpeedIn RunSpeedOut MaxSpeed TP FP TN FN ObsHit ObsAvoid Score
+9 0 0 3 19100 82999 1 33 35 10 0 2 25 6 65 2200
+9 1 0 3 83865 149636 1 26 29 13 0 2 25 0 78 4050
+9 2 0 1 154070 198613 1 40 40 13 0 0 20 0 32 7600
+9 3 0 3 202347 249457 2 27 30 8 0 1 17 0 44 5350
+9 4 0 0 255625 313445 2 29 29 10 3 0 26 0 76 3750
+9 5 0 1 349936 413320 3 22 22 5 3 2 19 0 47 3450
+9 6 0 1 417752 504065 2 22 22 11 3 2 27 1 83 4100
+9 7 0 0 508230 556252 2 29 30 8 2 1 17 0 27 4850
+9 8 0 3 560984 619070 2 28 28 10 3 0 24 0 36 3700
+9 9 0 2 623136 685754 2 25 26 8 2 1 21 1 49 3650
+9 10 0 3 689053 743306 3 28 29 8 1 2 21 0 31 5250
+9 11 0 0 747172 801792 3 29 31 8 2 2 20 0 62 5150
+9 12 0 4 807757 844382 0 40 40 25 0 0 0 0 40 4250
+9 13 0 0 850380 887638 4 24 24 4 1 1 10 0 15 6300
+9 14 0 1 895303 979315 2 22 27 13 2 1 27 0 84 6600
+9 15 0 4 984081 1020639 0 40 40 25 0 0 0 0 49 4250
+9 16 0 0 1025737 1085923 3 24 24 8 2 1 20 0 30 6500
+9 17 0 4 1089722 1126746 0 39 40 25 0 0 0 0 25 4250
+9 18 0 2 1131578 1194330 1 27 30 13 1 1 23 0 74 5500
+9 19 0 1 1198162 1255914 3 24 26 8 1 1 20 0 29 6800
+9 20 0 3 1282908 1319199 4 28 28 3 1 2 12 0 18 3600
+9 21 0 2 1327564 1353557 2 28 27 3 3 0 6 0 20 1050
+9 22 0 2 1354657 1406144 2 27 27 8 2 1 18 0 46 4600
+9 23 0 0 1413843 1495256 2 24 29 13 2 0 31 0 90 6900

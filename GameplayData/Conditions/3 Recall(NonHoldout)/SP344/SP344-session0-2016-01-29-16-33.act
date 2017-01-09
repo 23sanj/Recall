@@ -1,0 +1,28 @@
+% Action Log: 
+% Recall Log Version 2.0 debug seed: 1454113947
+%
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Action Type { 0=None, 1=SingleTap, 2=DoubleTap, 6=Pinch } (Does not track pan, use log data to check player speed)
+% Timestamp (ms)
+% Base Speed { 0, inf }
+% Final Speed { 0, inf }
+%
+% EventNumber LevelNumber ActionType Timestamp BaseSpeed FinalSpeed
+0 0 1 45832 15 10
+0 0 1 77199 15 10
+0 0 1 80732 15 10
+0 0 1 83999 15 10
+0 0 1 91398 15 10
+0 0 1 96365 15 10
+0 0 1 97532 15 10
+0 0 1 99232 15 10
+0 0 1 99732 15 10
+0 0 1 102232 15 15
+0 0 1 112198 15 15
+0 0 1 112998 15 15
+0 0 1 124998 15 15
+0 0 1 127165 15 15
+0 0 1 135066 15 15
+0 0 1 138633 15 15
+0 0 1 140467 15 15

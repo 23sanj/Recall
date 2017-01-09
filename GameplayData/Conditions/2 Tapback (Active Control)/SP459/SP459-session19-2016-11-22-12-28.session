@@ -1,0 +1,36 @@
+% Session Log: 
+% debug seed: 1479846514
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Navigation, 4=Speed, 5=Training 6=Recess, 7=Special 2-Back }
+% Intended Stage Duration (s)
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% Rep { -1, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% MaxSpeed { 0, inf }
+% NavScore { 0, inf }
+% Accuracy - TP / (TP + FP + TN) { 0 - 1 }
+% TP - Total Picked and Match { 0, inf }
+% FP - Total Picked and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% SchedulerLevel - Floating point estimate of player n-back level { 1, inf }
+%
+% SessionNumber EventNumber TaskType Duration TSin TSout N-Back Rep RunSpeedIn RunSpeedOut MaxSpeed NavScore Accuracy TP FP TN FN ObsHit ObsAvoid 
+19 0 0 142 0 53832 0 1 15 15 25 0 0.928571 13 0 1 0 0 0 0.25
+19 1 0 142 53832 92865 0 2 15 15 25 0 1 13 0 0 0 0 0 0.6
+19 2 0 145 92865 218584 1 0 15 15 25 0 0.928571 13 0 1 31 0 0 0.85
+19 3 0 145 218584 369631 1 1 15 15 25 0 0.666667 10 0 5 38 0 0 0.85
+19 4 0 145 369631 520661 1 1 15 15 25 0 0.6875 11 0 5 37 0 0 0.85
+19 5 0 145 520661 678122 1 1 15 15 25 0 0.444444 8 1 9 35 0 0 0.562222
+19 6 0 145 678122 831851 1 1 15 15 25 0 0.619048 13 1 7 33 0 0 0.518889
+19 7 0 145 831851 989746 1 2 15 15 25 0 0.5625 9 0 7 37 0 0 0.396389
+19 8 0 142 989746 1030470 0 2 15 15 25 0 1 13 0 0 0 0 0 0.746389
+19 9 0 145 1030470 1181766 1 0 15 15 25 0 0.526316 10 2 7 34 0 0 0.573231
+19 10 0 145 1181766 1338828 1 0 15 15 25 0 0.277778 5 1 12 35 0 0 0.223231

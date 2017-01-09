@@ -1,0 +1,19 @@
+%Recollect Version 2.0. Scene/Level: multi0_intro, Game Number: 007
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%MultiObjectBugListChanged:5,[Array of Bug Types]
+%BugPositions:3,Time (Relative),Time (Absolute),(For Each Bug:)Bug Color,Bug Position X,Bug Position Y
+%MultiObjectTask:4,Matched Correctly,Was Collected,Flower Type,Reveal Time (R),Reveal Time (A),Pollenation Time (R) (-1.0 = unpollenated),Pollenation Time (A) (-1.0 = unpollenated),Death Time (R),Death Time (A)
+%Possible values for "Flower Types":Red=0,Green=1,Blue=2,Yellow=3,White=4,Magenta=5,
+5,2,4
+3,0,1477520550873.6,2,0.09999999,0.4333333,4,0.7,0.4333333
+3,1.000092,1477520551811.21,2,0.05209941,0.5261948,4,0.5127924,0.5491446
+3,2.00061,1477520552812.06,2,0.1518975,0.6145459,4,0.5016267,0.710995
+3,3.033875,1477520553845.16,2,0.2645515,0.7441094,4,0.6914439,0.7161024
+3,4.066833,1477520554878.9,2,0.3870255,0.6205426,4,0.5302756,0.5624679
+3,5.066925,1477520555878.74,2,0.2929208,0.727699,4,0.4781568,0.6681417
+3,6.06723,1477520556879.1,2,0.50984,0.7204739,4,0.6315466,0.7961228
+3,7.100342,1477520557912.25,2,0.5693439,0.6582554,4,0.6625915,0.8146541
+4,0,1,4,4.40018,-1.00000,-1,7.80017,1477520558614
+3,8.100861,1477520558913.04,2,0.3958232,0.2705435,4,0.7253966,0.7786491
+3,9.13385,1477520559944.99,2,0.6669931,0.4699802,4,0.9210064,0.6812155

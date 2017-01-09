@@ -1,0 +1,42 @@
+% Tunnel Log: 
+% debug seed: 1422918691
+%
+% SegEncNW { '0'=no panel, '1'=panel, '4'=obstacle, '5'=collided obstacle, '6'=player, '7'=player right, '8'=player wrong, '2'=target, '3'=fake }
+% SegEncN
+% SegEncNE
+% SegEncE
+% SegEncSE
+% SegEncS
+% SegEncSW
+% SegEncW
+% Event Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Navigation, 4=Speed, 5=Training 6=Recess, 7=Special 2-Back }
+% N-Back { 0, inf }
+% Navigation Level { 0, inf }
+% Player Loc { 0=Northwest ... 7=West }
+% Pod Loc { -1=N/A, 0=Northwest ... 7=West }
+% Pod Color { -1, inf }
+% Pod Shape { -1, inf }
+% Pod Sound { -1, inf }
+% Pod Match { -1=N/A, 0=No, 1=Yes }
+% Pod Taken { -1=N/A, 0=No, 1=Yes }
+% Timestamp (ms)
+% Num Obstacles { 0, inf }
+% Min Speed { 0, inf }
+% Max Speed { 0, inf }
+% Base Speed { 0, inf }
+% Final Speed { 0, inf }
+% Navigation Score { 0, inf }
+% Segment Direction { 0=Northwest ... 7=West }
+% Segment Angle { 0, inf }
+% Segment Panels { 0, inf }
+%
+% SegEncNW SecEncN SegEncNE SegEncE SegEncSE SegEncS SegEncSW SegEncW EventNumber TaskType N-Back Navigation PlayerLoc PodLoc PodColor PodShape PodSound PodMatch PodTaken Timestamp NumObs MinSpeed MaxSpeed BaseSpeed FinalSpeed NavScore SegmentDir SegmentAngle SegmentPanels
+0 0 0 0 1 6 1 0 0 0 1 0 5 -1 -1 -1 -1 -1 -1 200 0 15 25 15 60 0 8 0 3
+0 0 0 0 1 6 1 0 0 0 1 0 5 -1 -1 -1 -1 -1 -1 366 0 15 25 15 60 0 8 0 3
+0 0 0 0 1 6 1 0 0 0 1 0 5 -1 -1 -1 -1 -1 -1 533 0 15 25 15 60 0 8 0 3
+0 0 0 0 1 6 1 0 0 0 1 0 5 -1 -1 -1 -1 -1 -1 733 0 15 25 15 54 0 8 0 3
+0 0 0 0 1 6 1 0 0 0 1 0 5 -1 -1 -1 -1 -1 -1 933 0 15 25 15 36 0 5 0 3
+0 0 0 0 1 6 1 0 0 0 1 0 5 -1 -1 -1 -1 -1 -1 1433 0 15 25 15 15 0 5 0 3
+0 0 0 0 1 6 1 0 0 0 1 0 5 -1 -1 -1 -1 -1 -1 2099 0 15 25 15 15 0 5 0 3
+0 0 0 0 1 6 1 0 0 0 1 0 5 -1 -1 -1 -1 -1 -1 2766 0 15 25 15 15 0 5 0 3

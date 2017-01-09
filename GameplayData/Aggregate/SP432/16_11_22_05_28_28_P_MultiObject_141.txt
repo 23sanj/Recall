@@ -1,0 +1,10 @@
+%Recollect Version 2.0. Scene/Level: multi1_intro, Game Number: 141
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%MultiObjectBugListChanged:5,[Array of Bug Types]
+%BugPositions:3,Time (Relative),Time (Absolute),(For Each Bug:)Bug Color,Bug Position X,Bug Position Y
+%MultiObjectTask:4,Matched Correctly,Was Collected,Flower Type,Reveal Time (R),Reveal Time (A),Pollenation Time (R) (-1.0 = unpollenated),Pollenation Time (A) (-1.0 = unpollenated),Death Time (R),Death Time (A)
+%Possible values for "Flower Types":Blue=0,Yellow=1,Green=2,Pink=3,White=4,Gray=5,Brown=6,Purple=7,
+5,0,2,3,4
+3,0,1479864508904.89,0,0.02500001,0.4333333,2,0.425,0.7,3,0.475,0.7666667,4,0.875,0.5666667
+3,1.033081,1479864509874.9,0,0.05276254,0.5252701,2,0.3211999,0.5798571,3,0.5896465,0.6940719,4,0.7601085,0.7105662

@@ -1,0 +1,16 @@
+%Recollect Version 2.0; iPad: ; User: SP455;
+%Span:2,Continent,Difficulty,Game Number,Highest Span Length Achieved,Current Span Length
+%NBack:4,Game Number,Scene/Level Played,Highest N Level Achieved,Current N Level
+%MultiObject:8,Continent,Difficulty,Game Number,Highest Number of Concurrent Bugs,Current Number of Concurrent Bugs
+4,0,2,088,4,3
+2,0,2,089,7,7
+4,1,1,091,4,2
+4,2,1,094,4,3
+2,2,2,095,7,6
+2,0,2,098,7,7
+8,1,0,001,3,3
+8,0,0,002,6,6
+8,1,0,003,4,4
+8,2,0,004,5,3
+8,0,1,005,6,6
+8,1,0,006,4,3

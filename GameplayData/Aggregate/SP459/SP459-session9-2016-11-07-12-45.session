@@ -1,0 +1,41 @@
+% Session Log: 
+% debug seed: 1478551526
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Navigation, 4=Speed, 5=Training 6=Recess, 7=Special 2-Back }
+% Intended Stage Duration (s)
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% Rep { -1, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% MaxSpeed { 0, inf }
+% NavScore { 0, inf }
+% Accuracy - TP / (TP + FP + TN) { 0 - 1 }
+% TP - Total Picked and Match { 0, inf }
+% FP - Total Picked and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% SchedulerLevel - Floating point estimate of player n-back level { 1, inf }
+%
+% SessionNumber EventNumber TaskType Duration TSin TSout N-Back Rep RunSpeedIn RunSpeedOut MaxSpeed NavScore Accuracy TP FP TN FN ObsHit ObsAvoid 
+9 0 0 142 0 52599 0 2 15 15 25 0 1 13 0 0 0 0 0 0.756
+9 1 0 145 52599 175208 1 0 15 15 25 0 0.764706 13 1 3 27 0 0 0.776588
+9 2 0 145 175208 326441 1 1 15 15 25 0 0.666667 12 1 5 35 0 0 0.776588
+9 3 0 145 326441 479804 1 1 15 15 25 0 0.470588 8 1 8 36 0 0 0.525412
+9 4 0 145 479804 631134 1 1 15 15 25 0 0.315789 6 3 10 34 0 0 0.175412
+9 5 0 142 631134 685454 0 1 15 15 25 0 0.722222 13 0 5 0 0 0 0.175412
+9 6 0 142 685454 749538 0 2 15 15 25 0 0.590909 13 0 9 0 0 0 0.0926846
+9 7 0 142 749538 818021 0 0 15 15 25 0 0.590909 13 0 9 0 0 0 0.0099573
+9 8 0 142 818021 866909 0 1 15 15 25 0 0.8125 13 0 3 0 0 0 0.0974573
+9 9 0 142 866909 917464 0 2 15 15 25 0 0.764706 13 0 4 0 0 0 0.118046
+9 10 0 142 917464 969284 0 0 15 15 25 0 0.8125 13 0 3 0 0 0 0.205546
+9 11 0 142 969284 1038934 0 1 15 15 25 0 0.619048 13 0 8 0 0 0 0.162212
+9 12 0 142 1038934 1144375 0 2 15 15 25 0 0.419355 13 0 18 0 0 0 0
+9 13 0 142 1144375 1197595 0 0 15 15 25 0 0.764706 13 0 4 0 0 0 0.0205883
+9 14 0 142 1197595 1271944 0 1 15 15 25 0 0.65 13 0 7 0 0 0 0.0205883
+9 15 0 142 1271944 1360756 0 2 15 15 25 0 0.464286 13 0 15 0 0 0 0

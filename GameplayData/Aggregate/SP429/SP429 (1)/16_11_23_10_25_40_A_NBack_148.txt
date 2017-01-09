@@ -1,0 +1,10 @@
+%Recollect Version 2.0. Scene/Level: nback1_advan, Game Number: 148
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%NBackObject:0,Current N Level,Is Correct,Should Be Picked Up,Type,Time of Reveal (R),Time of Reveal (A),Time of Death (R),Time of Death (A)
+%Possible values for "Type":Blue=0,Yellow=1,Green=2,Pink=3,White=4,Gray=5,Brown=6,Purple=7,None=8,
+0,3,1,0,2,0.07556,1479925540141.55,1.69971,1479925541747.2
+0,3,0,0,5,1.63306,1479925541681.23,3.32459,1479925543383.92
+0,3,1,0,1,4.06659,1479925544114.87,6.60022,1479925546647.27
+0,3,1,0,5,6.50000,1479925546547.41,9.03351,1479925549081.78
+0,2,0,0,0,8.93384,1479925548981.73,10.52460,1479925550585.98

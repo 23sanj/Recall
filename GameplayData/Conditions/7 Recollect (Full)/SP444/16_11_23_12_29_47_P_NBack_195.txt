@@ -1,0 +1,12 @@
+%Recollect Version 2.0. Scene/Level: multi1_advan, Game Number: 195
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%NBackObject:0,Current N Level,Is Correct,Should Be Picked Up,Type,Time of Reveal (R),Time of Reveal (A),Time of Death (R),Time of Death (A)
+%Possible values for "Type":Blue=0,Yellow=1,Green=2,Pink=3,White=4,Gray=5,Brown=6,Purple=7,None=8,
+0,5,1,0,5,0.07263,1479932987409.27,1.69983,1479932989017.01
+0,5,1,0,3,1.63318,1479932988950.67,4.16669,1479932991485.6
+0,5,1,0,2,4.06677,1479932991384.55,6.60022,1479932993918.07
+0,5,1,0,0,6.50006,1479932993818.13,9.03369,1479932996352.73
+0,5,1,0,1,8.93366,1479932996252.2,11.46710,1479932998786.54
+0,4,0,0,2,11.40051,1479932998718.59,13.06549,1479933003424.78
+1,63.99289,3.71875,2,14.48553,1479933006886.39

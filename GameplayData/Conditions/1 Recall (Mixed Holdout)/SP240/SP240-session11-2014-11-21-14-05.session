@@ -1,0 +1,46 @@
+% Session Log: 
+% debug seed: 1416607539
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Holdout, 4=Recess }
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% TP - Total Picked and Match { 0, inf }
+% FP - Total Picked and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% Score - Player points earned in level
+%
+% SessionNumber EventNumber LevelNumber TaskType Duration TSin TSout N-Back Rep RunSpeedIn RunSpeedOut MaxSpeed TP FP TN FN ObsHit ObsAvoid Score
+11 0 0 2 29299 82532 3 25 27 8 2 0 17 0 26 8450
+11 1 0 2 85432 149202 3 26 25 9 3 3 21 0 35 5550
+11 2 0 3 154804 189811 5 27 25 2 3 1 9 0 14 4450
+11 3 0 0 192512 240722 3 28 24 5 3 3 17 0 54 3350
+11 4 0 1 243489 316644 2 27 32 13 0 2 31 0 90 4850
+11 5 0 2 321009 380761 1 25 32 13 0 0 21 0 66 7450
+11 6 0 2 386027 431349 3 28 31 8 1 0 16 0 24 8900
+11 7 0 0 438014 503465 4 26 28 8 2 1 19 0 29 11050
+11 8 0 0 508197 563584 3 27 28 8 1 1 22 0 31 6300
+11 9 0 3 568316 637532 2 28 32 13 1 1 27 0 82 6750
+11 10 0 0 640865 707948 3 27 26 9 3 3 24 0 38 5700
+11 11 0 0 710348 742873 5 26 23 2 3 1 9 0 14 4450
+11 12 0 1 745239 773699 3 29 31 4 1 0 8 0 12 5700
+11 13 0 1 777431 826153 2 30 29 7 3 2 19 0 30 2650
+11 14 0 1 828286 888038 3 29 29 10 3 1 25 0 38 6250
+11 15 0 4 890004 930394 0 30 40 25 0 1 0 0 51 4050
+11 16 0 2 935326 1001077 2 29 33 13 1 1 26 1 79 6700
+11 17 0 1 1004309 1051231 2 29 32 8 1 0 18 0 26 6100
+11 18 0 1 1057963 1123713 2 30 29 11 3 2 29 0 44 4200
+11 19 0 2 1127612 1167269 3 31 31 7 3 0 15 0 24 4250
+11 20 0 0 1171802 1242851 3 24 30 13 1 0 24 1 73 12100
+11 21 0 3 1246250 1296005 3 30 29 7 2 3 19 0 31 4450
+11 22 0 1 1300370 1334129 3 29 30 4 2 1 9 0 15 3950
+11 23 0 3 1336461 1377018 4 29 29 5 3 0 15 0 22 5750
+11 24 0 3 1380284 1453833 3 29 32 13 1 2 31 1 90 8000

@@ -1,0 +1,11 @@
+%Recollect Version 2.0. Scene/Level: multi1_intro, Game Number: 093
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%NBackObject:0,Current N Level,Is Correct,Should Be Picked Up,Type,Time of Reveal (R),Time of Reveal (A),Time of Death (R),Time of Death (A)
+%Possible values for "Type":Blue=0,Yellow=1,Green=2,Pink=3,White=4,Gray=5,Brown=6,Purple=7,None=8,
+0,1,1,0,1,0.05969,1478735142557.56,1.41565,1478735143904.92
+0,1,1,0,3,1.34900,1478735143837.76,3.88281,1478735146371.39
+0,1,1,0,7,3.78247,1478735146271.06,6.31592,1478735148805.02
+0,1,0,1,7,6.24927,1478735148738.18,8.74939,1478735151241.31
+0,1,1,0,1,8.64941,1478735151138.45,11.21619,1478735153705.66
+0,0,0,0,6,11.11609,1478735153604.84,12.60803,1478735155110.43

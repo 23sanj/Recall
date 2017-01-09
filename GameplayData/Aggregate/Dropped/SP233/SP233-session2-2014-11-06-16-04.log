@@ -1,0 +1,37 @@
+% Tunnel Log: 
+% debug seed: 1415318657
+%
+% SegEncNW { '0'=no panel, '1'=empty panel, '2'=player, '3'=match, '4'=nonmatch, '5'=obstacle, '6'=time warp }
+% SegEncN
+% SegEncNE
+% SegEncE
+% SegEncSE
+% SegEncS
+% SegEncSW
+% SegEncW
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Holdout, 4=Recess }
+% N-Back { 0, inf }
+% Player Roll Base { 0, 359 }
+% Player Roll Offset { 0, 359 }
+% Player Roll Speed { -inf, inf }
+% Player Loc { 0=Northwest ... 7=West }
+% Pod Loc { -1=N/A, 0=Northwest ... 7=West }
+% Pod Color { -1, inf }
+% Pod Shape { -1, inf }
+% Pod Sound { -1, inf }
+% Pod Match { -1=N/A, 0=No, 1=Yes }
+% Pod Taken { -1=N/A, 0=No, 1=Yes }
+% Pod Zapped { -1=N/A, 0=No, 1=Yes }
+% Timestamp (ms)
+% Num Obstacles { 0, inf }
+% Min Speed { 0, inf }
+% Max Speed { 0, inf }
+% Base Speed { 0, inf }
+% Final Speed { 0, inf }
+% Segment Direction { 0=Northwest ... 7=West }
+% Segment Angle { 0, inf }
+% Segment Panels { 0, inf }
+%
+% SegEncNW SecEncN SegEncNE SegEncE SegEncSE SegEncS SegEncSW SegEncW EventNumber LevelNumber TaskType N-Back PlayerRollBase PlayerRollOffset PlayerRollSpeed PlayerLoc PodLoc PodColor PodShape PodSound PodMatch PodTaken PodZapped Timestamp NumObs MinSpeed MaxSpeed BaseSpeed FinalSpeed SegmentDir SegmentAngle SegmentPanels

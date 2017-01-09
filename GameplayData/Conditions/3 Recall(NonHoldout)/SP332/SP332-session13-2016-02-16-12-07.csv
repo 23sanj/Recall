@@ -1,0 +1,122 @@
+% Session Log: 
+% Recall Log Version 2.0 debug seed: 1455653221
+%
+% Ways to compute:
+% Total Zapped - TP + FP
+% N-Back Matches Zapped - TP
+% N-Back Matches Not Zapped but Grabbed - Ignored
+% Total Grabbed - Pickups + Ignored
+% N-Back Non-Matches Zapped - FP
+% N-Back Non-Matches Not Zapped but Grabbed - Pickups
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Recess, 1=Color/Sound, 2=Shape/Sound, 3=Sound, 4=AllFeatures }
+% Has Holdout { 0, 1 }
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% LevelEnding { 0=PASS, 1=LOSE_TIME_OR_X, 2=LOSE_OUT_OF_FUEL, 3=UNFINISHED }
+% Accuracy - TP / (TP + FP + TN) { 0-1 }
+% TP - Total Zapped and Match { 0, inf }
+% FP - Total Zapped and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% TPh - Holdouts Zapped and Match { 0, inf }
+% FPh - Holdouts Zapped and Non-Match { 0, inf }
+% TNh - Holdouts Missed and Match { 0, inf }
+% FNh - Holdouts Missed and Non-Match { 0, inf }
+% Ignored - Total Grabbed and Match { 0, inf }
+% Pickups - Total Grabbed and Non-Match { 0, inf }
+% IgnoredH - Holdouts Grabbed and Match { 0, inf }
+% PickupsH - Holdouts Grabbed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% Score - Player points earned in level
+% Total Marbles - Levels left in the random pool for the scheduler
+% NBackLevelA - Color/Sound scheduler skill level
+% NBackLevelB - Shape/Sound scheduler skill level
+% NBackLevelC - Sound Only  scheduler skill level
+% NBackLevelD - All Signals scheduler skill level
+% NBackLevelE - Recess      scheduler skill level
+% Scheduler Score - Total scheduler score
+% Holdout OffsetA - Offset to Color/Sound skill level in scheduler
+% Holdout OffsetB - Offset to Shape/Sound skill level in scheduler
+% Holdout OffsetD - Offset to All Signals skill level in scheduler
+% Holdout LevelA - Represents number of succeed levels in holdout A in scheduler
+% Holdout LevelB - Represents number of succeed levels in holdout B in scheduler
+% Holdout LevelD - Represents number of succeed levels in holdout D in scheduler
+% SpeedA - Scheduler recommended speed for Color/Sound
+% SpeedB - Scheduler recommended speed for Shape/Sound
+% SpeedC - Scheduler recommended speed for Sound Only
+% SpeedD - Scheduler recommended speed for All Signals
+% SpeedE - Scheduler recommended speed for Recess
+% Music Volume - Settings music volume
+% Sound Volume - Settings sound volume
+% Sync Data To Server - Settings that lets user to sync log data to server
+% Max Vel - Controller Settings for maximum angular spin
+% Min Vel Free - deprecated
+% Min Vel Stopper - Controller Settings for minimum velocity to force stop in free motion
+% Damping Decay Free - Controller Settings for a multiplier to slow down in free motion
+% Damping Decay Stop - Controller Settings for a multiplier to slow down by held down input
+% Damping Drop Free - Controller Settings for a linear slow down in free motion
+% Damping Drop Stop - Controller Settings for a linear slow down by held down input
+% Inverted - Controller Settings to invert direction
+% fuelEnabled - Study Settings to enable fuel usage
+% holdoutEnabled - Study Settings to enable holdout
+% initialVelocity - Study Settings to initialize starting speed
+% manRecessEnabled - Study Settings to enable mandatory recess
+% manRecessLevelLimit - Study Settings to set the number of levels before mandatory recess
+% newNavEnabled - Study Settings to enable senior navigation
+% newNavIncrement - Study Settings to set senior navigation progression
+% indRecessEnabled - Study Settings to enable independent recess
+% indRecessIncrement - Study Settings to set independent recess increment
+% holdoutdelayEnabled - Study Settings to enable delayed holdout
+% holdoutdelayNumber - Study Settings to set holdout delay memory level
+% newSounds - Study Settings to use new sounds
+% enableSettingsPasscode - Study Settings to enable Settings Passcode
+% sessionStartTime - Study Settings to set min session length in mins
+% sessionEndTime - Study Settings to set max session length in mins
+% numOfSessions - Study Settings to set number of sessions
+% sessionScreenEnabled - Study Settings to enable the SessionID screen
+% enableIndRecessFixed - Study Settings to enable fixed Navigation for Independent Recess Levels
+% holdoutMin - Study Settings for min holdout intensity
+% holdoutMax - Study Settings for max holdout intensity
+% holdoutLowerBoundTime - Study Settings for in-level lowerbound time holdout
+% holdoutUpperBoundMinTime - Study Settings for in-level upperbound min time holdout
+% holdoutUpperBoundMaxTime - Study Settings for in-level upperbound max time holdout
+% holdoutSteps - Study Settings for holdout steps
+% soundOnlyEnabled - Study Settings for marble generation for Sound Only
+% holdoutOnlyEnabled - Study Settings for holdout marble only generation
+%
+% SessionNumber EventNumber LevelNumber TaskType HasHoldout TSin TSout N-Back RunSpeedIn RunSpeedOut LevelEnding Accuracy TP FP TN FN TPh FPh TNh FNh Ignored Pickups IgnoredH PickupsH ObsHit ObsAvoid Score TotalMarbles NBackLevelA NBackLevelB NBackLevelC NBackLevelD NBackLevelE SchedulerScore HoldoutOffsetA HoldoutOffsetB HoldoutOffsetD HoldoutLevelA HoldoutLevelB HoldoutLevelD SpeedA SpeedB SpeedC SpeedD SpeedE MusicVolume SoundVolume SyncDataToServer MaxVel MinVelFree MinVelStopper DampingDecayFree DampingDecayStop DampingDropFree DampingDropStop Inverted fuelEnabled holdoutEnabled initialVelocity manRecessEnabled manRecessLevelLimit newNavEnabled newNavIncrement indRecessEnabled indRecessIncrement holdoutdelayEnabled holdoutdelayNumber newSounds enableSettingsPasscode sessionStartTime sessionEndTime numOfSessions sessionScreenEnabled enableIndRecessFixed holdoutMin holdoutMax holdoutLowerBoundTime holdoutUpperBoundMinTime holdoutUpperBoundMaxTime holdoutSteps soundOnlyEnabled holdoutOnlyEnabled
+13 0 0 4 0 29933 85532 3 22 22 1 0.6 6 3 1 16 0 0 0 0 1 16 0 0 1 51 3800 18 2.83279 2.77312 2.36764 3.66759 5.208 1.3038e+06 -1.83279 -1.77312 -2.66759 0 0 0 28.5 27.75 26.75 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 1 0 2 0 88298 152903 2 27 27 1 0.733333 11 3 1 24 0 0 0 0 1 23 0 0 0 68 3900 17 2.83279 2.77312 2.36764 3.66759 4.998 1.3076e+06 -1.83279 -1.77312 -2.66759 0 0 0 28.5 27 26.75 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 2 0 4 0 157071 218451 4 22 22 1 0.692308 9 3 1 17 0 0 0 0 1 17 0 0 0 30 9850 16 2.83279 2.77312 2.36764 3.66759 4.998 1.3115e+06 -1.83279 -1.77312 -2.66759 0 0 0 28.5 27 26.75 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 3 0 3 0 220751 251358 3 26 27 0 1 4 0 0 9 0 0 0 0 0 9 0 0 0 13 5750 15 2.83279 2.77312 2.36764 3.66759 4.998 1.32135e+06 -1.83279 -1.77312 -2.66759 0 0 0 28.5 27 26.875 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 4 0 1 0 254758 313744 2 28 31 0 1 13 0 0 22 0 0 0 0 0 21 0 0 1 50 9400 14 2.83279 2.77312 2.68264 3.66759 4.998 1.3271e+06 -1.83279 -1.77312 -2.66759 0 0 0 29.5 27 26.875 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 5 0 0 0 315144 367998 0 31 40 0 1 37 0 0 0 0 0 0 0 0 0 0 0 0 38 1850 13 2.83279 2.77312 2.68264 3.66759 5.348 1.3365e+06 -1.83279 -1.77312 -2.66759 0 0 0 29.5 27 26.875 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 6 0 2 0 371030 393425 3 27 25 3 0 0 2 1 7 0 0 0 0 1 7 0 0 0 10 0 10 2.83279 2.77312 2.68264 3.66759 5.348 1.33835e+06 -1.83279 -1.77312 -2.66759 0 0 0 29.5 27 26.875 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 7 0 2 0 393425 426650 3 27 28 0 0.8 4 1 0 10 0 0 0 0 0 10 0 0 0 15 5200 10 2.83279 2.77312 2.68264 3.66759 5.348 1.33835e+06 -1.83279 -1.77312 -2.66759 0 0 0 29.5 27.75 26.875 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 8 0 3 0 429883 485303 3 26 25 1 0.4 4 3 3 19 0 0 0 0 3 19 0 0 0 29 2950 9 2.83279 2.81512 2.68264 3.66759 5.348 1.34355e+06 -1.83279 -1.81512 -2.66759 0 0 0 29.5 27.75 25.5 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 9 0 4 0 488302 526793 4 22 22 0 0.571429 4 2 1 8 0 0 0 0 1 8 0 0 0 15 7200 8 2.83279 2.81512 2.40264 3.66759 5.348 1.3465e+06 -1.83279 -1.81512 -2.66759 0 0 0 29.5 27.75 25.5 22.25 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 10 0 2 0 529692 569549 4 27 27 1 0.571429 4 3 0 14 0 0 0 0 0 14 0 0 0 21 4700 7 2.83279 2.81512 2.40264 3.66759 5.348 1.3537e+06 -1.83279 -1.81512 -2.66759 0 0 0 29.5 27 25.5 22.25 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 11 0 1 0 573048 620503 3 29 28 1 0.454545 5 3 3 17 0 0 0 0 3 17 0 0 0 28 3350 6 2.83279 2.81512 2.40264 3.66759 5.348 1.3584e+06 -1.83279 -1.81512 -2.66759 0 0 0 28.5 27 25.5 22.25 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 12 0 0 0 622402 675190 0 31 40 0 1 37 0 0 0 0 0 0 0 0 0 0 0 0 38 1850 5 2.55915 2.81512 2.40264 3.66759 5.348 1.36175e+06 -1.55915 -1.81512 -2.66759 0 0 0 28.5 27 25.5 22.25 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 13 0 4 0 679988 742173 4 22 22 1 0.636364 7 3 1 19 0 0 0 0 1 19 0 0 0 30 7950 2 2.55915 2.81512 2.40264 3.66759 5.348 1.3636e+06 -1.55915 -1.81512 -2.66759 0 0 0 28.5 27 25.5 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 14 0 3 0 745506 814589 2 25 27 0 0.866667 13 2 0 23 0 0 0 0 0 23 0 0 0 38 8700 19 2.55915 2.81512 2.40264 3.65232 5.348 1.37155e+06 -1.55915 -1.81512 -2.65232 0 0 0 28.5 27 26.125 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 15 0 2 0 819354 877973 3 27 27 0 0.727273 8 1 2 22 0 0 0 0 0 22 0 0 0 33 6000 18 2.55915 2.81512 2.56597 3.65232 5.348 1.38025e+06 -1.55915 -1.81512 -2.65232 0 0 0 28.5 27.375 26.125 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 16 0 1 0 880473 938225 3 28 29 0 0.727273 8 1 2 22 0 0 0 0 1 22 0 0 0 33 6000 17 2.55915 2.81512 2.56597 3.65232 5.348 1.38625e+06 -1.55915 -1.81512 -2.65232 0 0 0 28.75 27.375 26.125 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 17 0 4 0 941058 995778 3 22 22 1 0.5 5 3 2 15 0 0 0 0 2 15 0 0 0 50 3250 16 2.55915 2.81512 2.56597 3.65232 5.348 1.39225e+06 -1.55915 -1.81512 -2.65232 0 0 0 28.75 27.375 26.125 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 18 0 0 0 997611 1050131 0 31 40 0 1 37 0 0 0 0 0 0 0 0 0 0 0 0 38 1850 15 2.55915 2.81512 2.56597 3.65232 4.718 1.3955e+06 -1.55915 -1.81512 -2.65232 0 0 0 28.75 27.375 26.125 22 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 19 0 4 0 1052497 1107617 4 22 21 1 0.555556 5 3 1 16 0 0 0 0 1 16 0 0 0 25 5800 12 2.55915 2.81512 2.56597 3.65232 4.718 1.39735e+06 -1.55915 -1.81512 -2.65232 0 0 0 28.75 27.375 26.125 21.875 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 20 0 1 0 1110683 1168436 3 28 28 1 0.583333 7 3 2 23 0 0 0 0 2 23 0 0 0 35 4650 11 2.55915 2.81512 2.56597 3.54654 4.718 1.40315e+06 -1.55915 -1.81512 -2.54654 0 0 0 28 27.375 26.125 21.875 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 21 0 2 0 1171935 1208793 3 27 27 1 0.5 5 3 2 9 0 0 0 0 2 9 0 0 0 19 2950 10 2.46582 2.81512 2.56597 3.54654 4.718 1.4078e+06 -1.46582 -1.81512 -2.54654 0 0 0 28 27 26.125 21.875 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 22 0 3 0 1211959 1239518 3 26 25 1 0.333333 2 3 1 6 0 0 0 0 1 6 0 0 0 12 1300 9 2.46582 2.60512 2.56597 3.54654 4.718 1.41075e+06 -1.46582 -1.60512 -2.54654 0 0 0 28 27 25.5 21.875 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 23 0 1 0 1242484 1280908 3 28 27 1 0.5 4 3 1 13 0 0 0 0 1 13 0 0 0 21 2650 8 2.46582 2.60512 2.35597 3.54654 4.718 1.41205e+06 -1.46582 -1.60512 -2.54654 0 0 0 27.625 27 25.5 21.875 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 24 0 0 0 1282341 1335162 0 31 40 0 0.972973 36 0 1 0 0 0 0 0 0 0 0 0 0 38 1800 7 2.46582 2.60512 2.35597 3.54654 4.718 1.4147e+06 -1.46582 -1.60512 -2.54654 0 0 0 27.625 27 25.5 21.875 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 25 0 3 0 1338661 1366654 3 25 25 1 0.5 3 3 0 6 0 0 0 0 0 6 0 0 0 12 1800 4 2.46582 2.60512 2.35597 3.54654 4.718 1.4165e+06 -1.46582 -1.60512 -2.54654 0 0 0 27.625 27 25 21.875 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0
+13 26 0 3 0 1367487 1425773 3 25 26 0 0.727273 8 2 1 19 0 0 0 0 1 18 0 0 0 30 7200 4 2.46582 2.60512 2.35597 3.54654 4.718 1.4165e+06 -1.46582 -1.60512 -2.54654 0 0 0 27.625 27 25.75 21.875 31.5 0.5 0.5 1 4500 200 1150 0.937 0.5 25 50 1 1 0 15 1 5 0 0.35 1 0.5 1 2.5 1 1 20 20 20 1 0 60 95 0.2 0.3 0.6 5 1 0

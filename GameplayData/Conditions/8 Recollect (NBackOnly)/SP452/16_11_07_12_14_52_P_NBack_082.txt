@@ -1,0 +1,14 @@
+%Recollect Version 2.0. Scene/Level: nback2_inter, Game Number: 082
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%NBackObject:0,Current N Level,Is Correct,Should Be Picked Up,Type,Time of Reveal (R),Time of Reveal (A),Time of Death (R),Time of Death (A)
+%Possible values for "Type":Orange=0,Green=1,Purple=2,Blue=3,White=4,None=5,
+0,3,0,1,1,0.06195,1478549692552.26,1.41650,1478549693899.24
+0,3,1,0,1,1.31671,1478549693796.07,3.84992,1478549696329.35
+1,23.55739,7.53109,2,4.36865,1478549696862.42
+0,3,1,1,2,3.74994,1478549696229.04,5.42865,1478549697928.02
+0,3,1,0,3,6.21668,1478549698695.56,8.75018,1478549701229.25
+0,3,0,0,2,8.65021,1478549701130.29,10.30865,1478549702796.2
+1,51.71435,1.53150,1,11.38867,1478549703894.58
+0,2,0,0,4,11.08362,1478549703562.25,12.76868,1478549705265.05
+1,71.09457,3.60654,0,16.24866,1478549710762.56

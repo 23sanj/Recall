@@ -1,0 +1,45 @@
+% Session Log: 
+% debug seed: 1416248158
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Holdout, 4=Recess }
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% TP - Total Picked and Match { 0, inf }
+% FP - Total Picked and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% Score - Player points earned in level
+%
+% SessionNumber EventNumber LevelNumber TaskType Duration TSin TSout N-Back Rep RunSpeedIn RunSpeedOut MaxSpeed TP FP TN FN ObsHit ObsAvoid Score
+9 0 0 1 20700 94998 3 23 19 6 3 5 21 0 34 4050
+9 1 0 0 103198 154937 2 23 19 2 1 5 13 0 41 1150
+9 2 0 0 184677 257891 4 21 20 7 1 3 22 0 33 8100
+9 3 0 2 274154 329807 3 22 19 5 2 4 14 0 30 3200
+9 4 0 2 336539 395791 2 20 25 8 0 0 18 0 50 6500
+9 5 0 1 402023 466974 2 21 22 8 2 2 17 0 56 3650
+9 6 0 2 481903 533291 3 22 20 5 3 2 14 0 27 3200
+9 7 0 2 538756 618004 1 21 28 13 0 0 29 0 82 5750
+9 8 0 4 625302 667991 0 32 40 25 0 1 0 0 35 4050
+9 9 0 2 677689 715213 3 24 27 4 0 0 11 0 28 5350
+9 10 0 4 720179 758269 0 32 40 25 0 0 0 0 49 4350
+9 11 0 4 768034 810090 0 32 40 25 0 2 0 1 52 3350
+9 12 0 0 817855 858678 4 20 19 3 3 0 10 0 15 3500
+9 13 0 3 869276 898235 3 27 26 2 3 0 7 0 11 1350
+9 14 0 3 908666 954188 2 26 31 8 0 0 16 0 46 6900
+9 15 0 0 963619 1018806 2 23 25 8 1 1 14 0 33 5800
+9 16 0 0 1028170 1097353 1 24 29 13 0 1 25 0 76 5350
+9 17 0 3 1102819 1161471 3 26 28 8 1 1 21 0 49 6550
+9 18 0 1 1169302 1216124 4 21 19 2 2 2 13 0 19 2650
+9 19 0 3 1223822 1293705 2 26 33 13 0 0 30 0 84 7700
+9 20 0 3 1305169 1360022 3 24 21 5 3 2 16 0 44 3300
+9 21 0 2 1373086 1457799 2 25 30 13 1 1 33 1 93 5200
+9 22 0 1 1466030 1560007 2 20 23 12 0 2 32 0 92 4600
+9 23 0 1 1573337 1633022 2 24 22 6 1 3 19 0 39 2450

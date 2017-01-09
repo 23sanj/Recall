@@ -1,0 +1,77 @@
+% Session Log: 
+% debug seed: 1422915219
+%
+% Ways to compute:
+% Total Zapped - TP + FP
+% N-Back Matches Zapped - TP
+% N-Back Matches Not Zapped but Grabbed - Ignored
+% Total Grabbed - Pickups + Ignored
+% N-Back Non-Matches Zapped - FP
+% N-Back Non-Matches Not Zapped but Grabbed - Pickups
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Holdout, 4=Recess }
+% Has Holdout { 0, 1 }
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% LevelEnding { 0=PASS, 1=LOSE_TIME_OR_X, 2=LOSE_OUT_OF_FUEL, 3=UNFINISHED }
+% Accuracy - TP / (TP + FP + TN) { 0-1 }
+% TP - Total Zapped and Match { 0, inf }
+% FP - Total Zapped and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% Ignored - Total Grabbed and Match { 0, inf }
+% Pickups - Total Grabbed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% Score - Player points earned in level
+% Total Marbles - Levels left in the random pool for the scheduler
+% NBackLevelA - Color/Sound scheduler skill level
+% NBackLevelB - Shape/Sound scheduler skill level
+% NBackLevelC - Sound Only  scheduler skill level
+% NBackLevelD - All Signals scheduler skill level
+% NBackLevelE - Recess      scheduler skill level
+% Scheduler Score - Total scheduler score
+% Current Holdout - Holdout experience in scheduler
+% Holdout OffsetA - Offset to Color/Sound skill level in scheduler
+% Holdout OffsetB - Offset to Shape/Sound skill level in scheduler
+% Holdout OffsetD - Offset to All Signals skill level in scheduler
+% SpeedA - Scheduler recommended speed for Color/Sound
+% SpeedB - Scheduler recommended speed for Shape/Sound
+% SpeedC - Scheduler recommended speed for Sound Only
+% SpeedD - Scheduler recommended speed for All Signals
+% SpeedE - Scheduler recommended speed for Recess
+% Music Volume - Settings music volume
+% Sound Volume - Settings sound volume
+% Sync Data To Server - Settings that lets user to sync log data to server
+% Max Vel - Controller Settings for maximum angular spin
+% Min Vel Free - deprecated
+% Min Vel Stopper - Controller Settings for minimum velocity to force stop in free motion
+% Damping Decay Free - Controller Settings for a multiplier to slow down in free motion
+% Damping Decay Stop - Controller Settings for a multiplier to slow down by held down input
+% Damping Drop Free - Controller Settings for a linear slow down in free motion
+% Damping Drop Stop - Controller Settings for a linear slow down by held down input
+% Inverted - Controller Settings to invert direction
+%
+% SessionNumber EventNumber LevelNumber TaskType HasHoldout TSin TSout N-Back RunSpeedIn RunSpeedOut LevelEnding Accuracy TP FP TN FN Ignored Pickups ObsHit ObsAvoid Score TotalMarbles NBackLevelA NBackLevelB NBackLevelC NBackLevelD NBackLevelE SchedulerScore CurrentHoldout HoldoutOffsetA HoldoutOffsetB HoldoutOffsetD SpeedA SpeedB SpeedC SpeedD SpeedE MusicVolume SoundVolume SyncDataToServer MaxVel MinVelFree MinVelStopper DampingDecayFree DampingDecayStop DampingDropFree DampingDropStop Inverted
+0 0 0 0 0 67065 242489 0 15 24 0 0.972973 36 0 1 0 0 0 0 38 1800 20 1 1 1 1 1 0 0 0 0 0 15 15 15 15 15.875 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 1 0 4 0 247557 498799 1 15 17 0 1 8 0 0 16 0 16 0 24 5500 20 1 1 1 1 1 1800 0 0 0 0 15 15 15 16.375 15.875 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 2 0 4 1 529892 636899 1 16 17 0 0.8 8 1 1 21 1 21 0 31 3350 20 1 1 1 1.28 1 7300 0 0 0 0 15 15 15 16.625 15.875 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 3 0 1 0 651162 759836 1 16 18 0 0.866667 13 1 1 25 1 25 0 40 5150 19 1 1 1 1.336 1 10650 1 0 0 0 17.125 15 15 16.625 15.875 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 4 0 3 0 777498 884905 2 16 12 1 0 0 3 5 12 5 11 0 20 550 18 1.16333 1 1 1.336 1 15800 1 0 0 0 17.125 15 14 16.625 15.875 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 5 0 4 0 896702 954088 2 16 16 0 0.571429 4 1 2 10 2 10 0 17 3000 17 1.16333 1 1 1.336 1 16350 1 0 0 0 17.125 15 14 16.25 15.875 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 6 0 0 0 967318 1059396 0 15 25 0 1 38 0 0 0 0 0 0 38 1900 16 1.16333 1 1 1.336 1 19350 1 0 0 0 17.125 15 14 16.25 16.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 7 0 1 1 1076025 1174368 1 17 14 1 0.25 3 2 7 18 7 18 0 31 1200 16 1.16333 1 1 1.336 1 21250 1 0 0 0 15.5 15 14 16.25 16.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 8 0 2 1 1186165 1303903 1 15 15 1 0.583333 7 1 4 27 4 27 0 40 2050 15 1.16333 1 1 1.336 1 22450 1 -0.35 0 0 15.5 15 14 16.25 16.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 9 0 1 0 1313600 1392215 1 15 17 0 0.888889 8 1 0 15 0 15 0 24 5550 14 1.16333 1 1 1.336 1 24500 1 -0.35 -0.0933333 0 16.25 15 14 16.25 16.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 10 0 1 0 1416809 1490724 1 16 18 0 0.888889 8 1 0 17 0 17 0 26 4950 13 1.31889 1 1 1.336 1 30050 1 -0.35 -0.0933333 0 17.25 15 14 16.25 16.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 11 0 4 1 1505720 1572204 1 16 18 0 1 8 0 0 15 0 15 0 23 5650 12 1.47444 1 1 1.336 1 35000 1 -0.35 -0.0933333 0 17.25 15 14 17.375 16.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 12 0 0 0 1581302 1668680 0 16 26 0 1 38 0 0 0 0 0 0 38 1900 11 1.47444 1 1 1.616 1 40650 2 -0.35 -0.0933333 0 17.25 15 14 17.375 17.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 13 0 2 0 1684943 1745928 2 15 16 0 0.8 4 0 1 13 1 13 0 18 3150 11 1.47444 1 1 1.616 1 42550 2 -0.35 -0.0933333 0 17.25 15.5 14 17.375 17.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 14 0 2 1 1753593 1871731 1 15 16 1 0.8 12 0 3 28 3 28 0 43 2600 10 1.47444 1.063 1 1.616 1 45700 2 -0.35 -0.0933333 0 17.25 15 14 17.375 17.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1
+0 15 0 4 1 1890060 1999766 2 17 17 1 0.666667 10 2 3 29 3 29 0 44 3950 9 1.47444 1.063 1 1.616 1 48300 2 -0.35 -0.0933333 0 17.25 15 14 17 17.125 0.5 0.5 0 4500 200 1150 0.937 0.5 25 50 1

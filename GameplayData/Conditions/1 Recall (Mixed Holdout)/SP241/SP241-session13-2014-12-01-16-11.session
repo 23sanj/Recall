@@ -1,0 +1,46 @@
+% Session Log: 
+% debug seed: 1417479115
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Holdout, 4=Recess }
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% TP - Total Picked and Match { 0, inf }
+% FP - Total Picked and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% Score - Player points earned in level
+%
+% SessionNumber EventNumber LevelNumber TaskType Duration TSin TSout N-Back Rep RunSpeedIn RunSpeedOut MaxSpeed TP FP TN FN ObsHit ObsAvoid Score
+13 0 0 0 18033 78965 4 30 32 8 2 1 23 0 33 10050
+13 1 0 0 86265 147102 4 31 29 6 2 5 22 2 67 7100
+13 2 0 0 169373 242922 3 27 29 13 2 2 28 0 44 8600
+13 3 0 2 247157 278786 3 30 32 4 1 0 9 0 13 5450
+13 4 0 3 283952 318810 5 29 31 4 1 0 12 0 25 11400
+13 5 0 4 323409 360466 0 40 40 25 0 0 0 0 35 4250
+13 6 0 1 365932 402789 4 29 30 4 1 1 10 0 15 6300
+13 7 0 3 410388 458376 2 28 29 8 1 1 16 0 34 5300
+13 8 0 0 465707 521494 4 29 24 3 3 4 19 0 37 3900
+13 9 0 0 522660 559618 4 26 25 4 3 0 12 0 27 4600
+13 10 0 0 595976 627834 4 31 32 4 1 2 9 0 15 5150
+13 11 0 4 632900 668858 0 40 40 25 0 0 0 0 49 4250
+13 12 0 1 677489 725311 2 29 31 8 1 0 17 1 49 5900
+13 13 0 4 731443 771799 0 36 40 25 0 0 0 2 47 3350
+13 14 0 0 779964 820821 3 31 34 8 1 0 15 0 36 9050
+13 15 0 0 918630 966952 3 30 28 5 2 3 20 0 59 3500
+13 16 0 0 978216 1049965 2 27 26 9 2 3 29 0 84 3650
+13 17 0 2 1056963 1109384 2 31 34 8 1 1 21 1 49 3700
+13 18 0 2 1115649 1165503 2 27 31 8 1 1 16 0 50 5300
+13 19 0 3 1179733 1231720 4 28 29 8 0 2 20 0 59 10000
+13 20 0 1 1243617 1280742 3 27 25 2 3 1 12 0 34 1600
+13 21 0 3 1302936 1364821 3 28 26 7 1 5 23 0 52 4650
+13 22 0 1 1372153 1421441 2 27 26 7 3 2 15 0 36 2500
+13 23 0 1 1433205 1504320 3 26 29 13 2 2 24 0 40 9600
+13 24 0 3 1514551 1583101 4 27 25 7 3 2 25 3 69 8200

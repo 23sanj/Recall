@@ -1,0 +1,22 @@
+%Recollect Version 2.0. Scene/Level: span2_advan, Game Number: 159
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%SpanCollectionOrder:6,Time (R),Time (A),Is Reversed. (Arrangement order is from bottom left to top right)
+%SpanArrangementOrder:7,[Array of Span Types] (Order is from bottom left to top right). 
+%SpanPlayerInput:8,beginTime,endTime,[Array of Positions in Arrangment Pressed, followed by time]
+6,0.00000,1479337395806.47,0,0,1,7,2
+7,6,1,0,7,2,3
+6,13.17908,1479337408956.17,1,0,7,5,4
+7,5,6,0,4,6,7
+8,5.67908,13.17908,2,9.93445,1,10.20056,3,10.46710,4,10.73383
+1,102.46550,5.00019,2,24.09906,1479337419857.09
+6,25.31909,1479337421090.47,0,2,5,6,7
+7,6,6,4,5,7,2
+8,17.83911,25.31909,3,20.26764,2,20.76770,5,20.93439,1,21.30145,0,21.46808,4,21.63440,3,21.96765
+6,37.89911,1479337433659.6,1,3,0,5,2
+7,7,3,7,2,0,5
+8,30.39911,37.89911,5,32.66852,3,33.13501,1,34.00201,4,34.30182
+6,49.77905,1479337445558.47,1,1,4,5,6
+7,4,1,6,3,6,5
+8,42.27905,49.77905,1,44.93573,4,45.20270,5,45.53583,0,47.20245,3,47.40271
+1,221.28690,2.89277,1,53.79907,1479337449558.31

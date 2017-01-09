@@ -1,0 +1,17 @@
+%Recollect Version 2.0. Scene/Level: span1_inter, Game Number: 040
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%SpanCollectionOrder:6,Time (R),Time (A),Is Reversed. (Arrangement order is from bottom left to top right)
+%SpanArrangementOrder:7,[Array of Span Types] (Order is from bottom left to top right). 
+%SpanPlayerInput:8,beginTime,endTime,[Array of Positions in Arrangment Pressed, followed by time]
+6,0.00000,1479939747047.5,0,5,1,4,0
+7,0,4,7,2,1,5
+6,13.18353,1479939760189.83,0,3,0,2,5
+7,5,4,6,2,3,0
+8,5.68353,13.18353,5,8.45056,4,9.45062,1,9.78400,0,9.98456
+1,82.74451,5.08269,2,19.60352,1479939766622.47
+1,91.81946,2.31207,1,21.82355,1479939768856.13
+1,102.44040,3.90357,0,24.18353,1479939771197.1
+6,25.32355,1479939772357.07,0,4,0,1,5
+7,1,4,7,0,5,3
+8,17.84351,25.32355,0,18.48431,1,18.98444

@@ -1,0 +1,48 @@
+% Session Log: 
+% debug seed: 1415988932
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Holdout, 4=Recess }
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% TP - Total Picked and Match { 0, inf }
+% FP - Total Picked and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% Score - Player points earned in level
+%
+% SessionNumber EventNumber LevelNumber TaskType Duration TSin TSout N-Back Rep RunSpeedIn RunSpeedOut MaxSpeed TP FP TN FN ObsHit ObsAvoid Score
+8 0 0 0 20933 61332 4 23 24 4 1 0 12 0 16 7200
+8 1 0 3 73499 117231 4 24 22 2 2 2 13 0 19 2650
+8 2 0 2 133732 209949 2 26 29 13 1 1 32 0 46 5750
+8 3 0 4 218351 256592 0 32 40 25 0 0 0 0 25 4350
+8 4 0 0 268556 338738 1 26 25 10 1 4 24 0 77 2200
+8 5 0 1 346337 381328 3 24 26 4 1 0 9 0 13 5550
+8 6 0 0 387926 436881 2 26 30 8 1 0 14 0 22 7000
+8 7 0 2 454044 488835 3 23 25 4 1 0 8 0 12 5800
+8 8 0 2 503498 562051 3 24 23 6 2 3 18 0 29 3900
+8 9 0 3 571082 649329 2 25 28 13 0 2 29 1 85 5050
+8 10 0 1 662226 711048 2 25 30 8 0 0 16 0 46 6900
+8 11 0 1 729810 796460 3 27 27 9 3 1 27 0 39 5850
+8 12 0 1 803425 837683 3 27 25 3 3 1 10 0 16 2000
+8 13 0 1 842582 916697 2 26 30 13 0 1 28 2 80 6150
+8 14 0 4 924362 963586 0 32 40 25 0 0 0 0 25 4350
+8 15 0 3 976116 1050098 3 26 26 13 2 2 28 0 44 8600
+8 16 0 3 1058596 1108217 3 26 30 8 1 0 17 0 25 8750
+8 17 0 3 1115116 1159471 4 23 24 4 2 0 12 0 17 6900
+8 18 0 0 1167336 1210692 4 24 23 3 1 2 13 0 19 3650
+8 19 0 3 1220790 1260813 3 23 22 4 3 2 8 0 32 2400
+8 20 0 4 1268211 1306435 0 32 40 25 0 0 0 0 49 4350
+8 21 0 3 1313967 1367554 1 25 30 8 0 0 20 0 54 4500
+8 22 0 4 1373986 1414976 0 32 40 25 0 0 0 2 47 3550
+8 23 0 1 1420841 1487158 2 26 22 6 2 5 23 1 70 2650
+8 24 0 1 1492223 1530981 4 24 25 4 0 1 12 0 23 6100
+8 25 0 1 1538912 1589233 2 25 30 8 0 0 18 0 34 6500
+8 26 0 2 1595798 1632589 3 23 22 3 3 0 10 0 30 2000

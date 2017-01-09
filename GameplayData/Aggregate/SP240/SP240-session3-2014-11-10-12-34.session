@@ -1,0 +1,45 @@
+% Session Log: 
+% debug seed: 1415651672
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Holdout, 4=Recess }
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% TP - Total Picked and Match { 0, inf }
+% FP - Total Picked and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% Score - Player points earned in level
+%
+% SessionNumber EventNumber LevelNumber TaskType Duration TSin TSout N-Back Rep RunSpeedIn RunSpeedOut MaxSpeed TP FP TN FN ObsHit ObsAvoid Score
+3 0 0 1 40633 102165 2 23 22 7 3 1 19 0 29 2700
+3 1 0 3 106632 151870 3 22 21 5 3 1 11 0 19 3050
+3 2 0 1 157404 202881 3 22 22 5 3 1 11 0 19 3050
+3 3 0 1 206181 239488 3 22 24 4 1 0 7 0 11 5950
+3 4 0 2 242256 303914 2 25 25 9 3 1 22 0 34 3350
+3 5 0 2 307846 348869 3 25 25 3 1 2 12 0 17 2100
+3 6 0 2 352935 401690 2 25 27 8 2 1 13 0 23 5750
+3 7 0 0 404322 469240 2 23 19 6 3 3 21 0 32 2550
+3 8 0 1 473272 544088 1 23 26 13 1 1 25 0 39 5000
+3 9 0 2 549420 593510 3 26 22 4 3 2 14 0 22 2650
+3 10 0 3 597242 678089 2 21 20 11 2 4 23 0 39 3900
+3 11 0 3 683421 780197 2 20 22 12 2 2 30 0 46 4500
+3 12 0 0 785729 838250 2 21 23 8 2 0 13 0 22 7050
+3 13 0 0 846148 907300 3 22 21 6 3 2 18 0 28 3900
+3 14 0 3 910532 965752 3 20 19 7 3 0 15 0 24 4250
+3 15 0 3 970984 1000910 3 19 18 2 3 0 5 0 9 1250
+3 16 0 0 1004842 1049898 4 21 22 4 1 1 12 0 17 5900
+3 17 0 4 1053697 1095054 0 28 40 25 0 1 0 0 26 4050
+3 18 0 2 1102285 1169836 2 24 28 13 1 1 22 0 36 8050
+3 19 0 2 1176367 1226688 2 26 31 8 0 0 19 0 26 6250
+3 20 0 0 1236219 1303803 3 21 20 9 3 0 22 0 33 5600
+3 21 0 1 1307669 1373819 2 24 21 7 2 6 19 0 34 2700
+3 22 0 0 1380417 1443202 3 20 18 5 3 1 18 0 26 3400
+3 23 0 1 1448734 1503787 2 22 27 8 0 0 18 0 25 6500

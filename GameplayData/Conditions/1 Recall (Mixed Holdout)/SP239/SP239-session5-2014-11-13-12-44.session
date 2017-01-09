@@ -1,0 +1,43 @@
+% Session Log: 
+% debug seed: 1415911467
+%
+% Session Number { 0, inf }
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Color/Sound, 1=Shape/Sound, 2=Sound, 3=Holdout, 4=Recess }
+% TSin - Timestamp In (ms)
+% TSout - Timestamp Out (ms)
+% N-Back { 0, inf }
+% RunSpeedIn { 0, inf }
+% RunSpeedOut { 0, inf }
+% TP - Total Picked and Match { 0, inf }
+% FP - Total Picked and Non-Match { 0, inf }
+% TN - Total Missed and Match { 0, inf }
+% FN - Total Missed and Non-Match { 0, inf }
+% ObsHit - Segments with Obstacles Hit { 0, inf }
+% ObsAvoid - Segments with Obstacles Avoided { 0, inf }
+% Score - Player points earned in level
+%
+% SessionNumber EventNumber LevelNumber TaskType Duration TSin TSout N-Back Rep RunSpeedIn RunSpeedOut MaxSpeed TP FP TN FN ObsHit ObsAvoid Score
+5 0 0 2 18066 97198 2 17 16 7 2 2 22 0 32 2850
+5 1 0 3 103232 137233 3 25 22 2 3 1 8 0 13 1400
+5 2 0 2 144535 244223 1 16 23 13 1 0 29 0 62 5650
+5 3 0 0 250991 343071 2 14 15 8 2 1 20 0 30 4350
+5 4 0 4 346770 384960 0 31 40 25 0 0 0 0 25 4350
+5 5 0 0 389726 434048 3 14 16 4 1 0 7 0 11 6150
+5 6 0 3 443513 486869 2 23 28 8 0 0 11 0 18 7950
+5 7 0 4 496533 534924 0 31 40 25 0 0 0 0 25 4350
+5 8 0 2 543788 613971 2 19 21 8 2 1 19 0 29 4450
+5 9 0 3 618470 685087 2 25 24 9 3 2 24 0 37 3450
+5 10 0 0 690519 736475 3 15 15 3 3 0 8 0 13 1900
+5 11 0 3 740640 811890 1 24 21 10 2 4 23 0 67 2100
+5 12 0 3 816755 855312 3 22 23 4 2 1 8 0 14 4200
+5 13 0 0 864110 961753 2 15 19 13 1 1 22 0 53 8050
+5 14 0 0 970917 1072059 2 17 15 10 2 3 28 0 43 3900
+5 15 0 4 1081957 1124580 0 31 40 25 0 4 0 0 57 3250
+5 16 0 1 1142242 1194196 2 24 26 8 1 1 16 0 25 5400
+5 17 0 2 1200195 1236286 3 20 19 3 3 0 7 0 12 1850
+5 18 0 1 1244684 1293739 3 25 24 7 3 1 15 0 25 4250
+5 19 0 2 1301370 1371520 3 19 18 9 3 1 19 0 31 5450
+5 20 0 2 1382717 1459032 2 18 18 8 2 1 20 0 30 4300
+5 21 0 1 1466630 1544611 2 24 21 7 3 4 23 0 72 2850
