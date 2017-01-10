@@ -37,9 +37,11 @@ for k=1:nSubs
     caxis([0, 1])
     colorbar;
     set(gca,'YDir','normal');
+    set(gca,'YTick',[1,2,3,4,5]);
     hold on;
     scatter(sessions+0.2,n_backs,'kx');
     ylim([1 9]);
+    
     
     
     legend('Observed N-back','Predicted Skill');
