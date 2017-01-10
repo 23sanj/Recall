@@ -1,4 +1,4 @@
-function [Pi_hat,numer,denom,logP] = single_seq(A,Pi,B)
+function [Pi_hat,numer,denom,P] = single_seq(A,Pi,B)
 
 %For multiple sequences-- Add together the frequencies of induvidual sequences
 
@@ -38,7 +38,7 @@ for t=1:T
 end
 
 logP = -logP;%log likelihood of data
-%P= exp(logP);
+P= exp(logP);
 
 end
 

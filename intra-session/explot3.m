@@ -12,7 +12,6 @@ for k=1:nSubs
     end
     [alpha,beta,scale] =alpha_beta_pass(A,Pi,B);
     
-    %gamma=alpha.*beta./sum(alpha.*beta,2); %Posterior state from smoothing
     gamma=alpha.*beta.*(1./scale)';
     N= size(B,1);
     sessions = linspace(1,N,N);
@@ -25,7 +24,7 @@ for k=1:nSubs
     h1 = axes;
     
     map = [1 1 1; %White
-           1 1 0.9; %mauve
+           1 1 0.9; %cream
            1 1 0.4;%Yellow
            1 0.6 0.3; %Orange
            1 0 0;]; %Dark-red
@@ -65,9 +64,9 @@ for k=1:nSubs
     set(h,'Visible','on');
     
     if k==1
-        print(fig(k), '-dpsc2', 'User-Skill-Trace.pdf');
+        print(fig(k), '-dpsc2', 'User-Skill-Trace.ps');
     else
-       print(fig(k), '-append', '-dpsc2', 'User-Skill-Trace.pdf'); 
+       print(fig(k), '-append', '-dpsc2', 'User-Skill-Trace.ps'); 
     end
     gamma_list{k} = gamma;
     

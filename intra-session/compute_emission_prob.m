@@ -19,7 +19,7 @@ for i=1:n_sessions
     m = M(i);
     %IRT model:
     q_plug = rho*(X- n_back);
-    q= c + (1.0 - c)./ ( 1.0 + exp(-q_plug)); % a vector with 20 values corresponding to the probability 
+    q=  1.0./ ( 1.0 + exp(-q_plug)); % a vector with 20 values corresponding to the probability 
      pos_q = q.^r; %taking logs as the probabiltities are small
     neg_q =(1-q).^(m-r);
     

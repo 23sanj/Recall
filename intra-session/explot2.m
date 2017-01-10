@@ -2,8 +2,8 @@ function [] = explot2(Y_hat_list,Ratio,subList)
 %Plotting for every subject:
 nSubs = numel (Y_hat_list);
 Diff = cell(nSubs,1);
-sum_diff =zeros(100,1);
-sum_diff_2 =zeros(100,1);
+sum_diff =zeros(1000,1);
+sum_diff_2 =zeros(1000,1);
 count=0;
 for k=1:nSubs
     Y1= Y_hat_list{k}; %Actual Value

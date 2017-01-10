@@ -25,7 +25,7 @@ for k=1:nSubs
     h1 = axes;
     
     map = [1 1 1; %White
-           1 1 0.9; %mauve
+           1 0.8 0.8; %mauve
            1 1 0.4;%Yellow
            1 0.6 0.3; %Orange
            1 0 0;]; %Dark-red
@@ -65,9 +65,9 @@ for k=1:nSubs
     set(h,'Visible','on');
     
     if k==1
-        print(fig(k), '-dpsc2', 'User-Skill-Trace.pdf');
+        print(fig(k), '-dpsc2', 'User-Skill-Trace.ps');
     else
-       print(fig(k), '-append', '-dpsc2', 'User-Skill-Trace.pdf'); 
+       print(fig(k), '-append', '-dpsc2', 'User-Skill-Trace.ps'); 
     end
     gamma_list{k} = gamma;
     

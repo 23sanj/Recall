@@ -1,6 +1,6 @@
 function [] = test_hmm(A,Pi)
 
-DataDir = '/home/csgrads/ssand024/Desktop/n-back/GameplayData/Conditions/3 Recall(NonHoldout)/'; % Directory name
+DataDir = '/Users/sanjana/Documents/MATLAB/single model/GameplayData/Conditions/3 Recall(NonHoldout)/'; % Directory name
 %Creating a list of directories for the subjects:
 subjects=dir([DataDir]);
 subjects(~[subjects.isdir]) = []; %Clean up
@@ -31,7 +31,7 @@ for k = 1:nSubs
              n_backs_list{k} = n_backs;
              M_list{k} = M;
              R_list{k} = R;
-             if isempty(find(R == 0)) ~= 0 && isempty(find(M == 0)) ~= 0
+             %if isempty(find(R == 0)) ~= 0 && isempty(find(M == 0)) ~= 0
                 Test_Actual_Values{k} = R./M;
                 [B,X] = compute_emission_prob(M,R,n_backs); %Computing the emission prob for each training seq
         
@@ -39,7 +39,7 @@ for k = 1:nSubs
                 test_residuals{k} = residuals;
                 Test_Predicted_Values{k}= Y_hat;
                 B_list{k} = B;
-             end
+             %end
          end
     end
 end

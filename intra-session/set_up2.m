@@ -83,7 +83,15 @@ function [M R n_backs] = set_up(subList)
 
  M= total_TOTAL_STIMULUS;
  R= total_TP + total_TN;
- n_backs = total_n_back; %Not eliminating 0 n-backs
+ n_backs = total_n_back;
+ 
+ if isempty(find(M == 0)) ==0
+     rem_zer = find(M == 0);
+     M(rem_zer) = [];  %Removing 0 m values.
+     R(rem_zer) = [];
+     n_backs(rem_zer) = [];
+ end
+
  
 
  
