@@ -1,6 +1,7 @@
 function [] = explot3(A,Pi,B_list,subList,n_backs_list,Y_hat_list,Ratio)
 %Plotting for every subject:
 nSubs = numel(B_list);
+gamma_list = cell(nSubs,1);
 for k=1:nSubs
     Y1= Y_hat_list{k};
     Y2= Ratio{k};
@@ -13,7 +14,6 @@ for k=1:nSubs
     
     %gamma=alpha.*beta./sum(alpha.*beta,2); %Posterior state from smoothing
     gamma=alpha.*beta.*(1./scale)';
-    old_gamma = gamma;
     N= size(B,1);
     sessions = linspace(1,N,N);
     
@@ -22,39 +22,25 @@ for k=1:nSubs
     Subject =strsplit(Subject,'-');
     Subject = Subject{1};
     fig(k)= figure;
+    h1 = axes;
+    
+    map = [1 1 1; %White
+           1 1 0.9; %mauve
+           1 1 0.4;%Yellow
+           1 0.6 0.3; %Orange
+           1 0 0;]; %Dark-red
+    
     
     a=subplot(2, 1, 1);  
-    scatter(sessions+0.2,n_backs,'kx');
+    imagesc(gamma');
+    colormap(map);
+    caxis([0, 1])
+    colorbar;
+    set(gca,'YDir','normal');
     hold on;
-    ylim([0 9]);
-    new_gamma = zeros(size(gamma));
+    scatter(sessions+0.2,n_backs,'kx');
+    ylim([1 9]);
     
-    for l=sessions
-        for i= 1:size(gamma,2)
-            [c_max,c_ind] = max(gamma(l,:));
-            gamma(l,c_ind) =0;
-            if (any(new_gamma(l,:) == c_ind))
-                new_gamma(l,i) = NaN;
-                continue;
-            end
-            new_gamma(l,i)= c_ind;
-        end
-    end
-    
-    %new_gamma(:, find(sum(abs(new_gamma)) == 0)) = [];
-    %First col-highest, 2nd - 2nd highest
-    map = [1 0 0; %Dark-red
-          % 1 0.1 0.2;
-           1 0.6 0.3; %Orange
-           1 1 0.4;%Yellow
-           1 1 0.9; %mauve
-           1 1 1;]; %White
-    for val = 1: size(new_gamma,2)
-        res = val - size(new_gamma,2);
-        scatter(sessions,new_gamma(:,val),'o','MarkerFaceColor',map(val,:));
-        %colorbar(map);
-        hold on;
-    end
     
     legend('Observed N-back','Predicted Skill');
     %title(sprintf('N-back skill level estimate for Subject= %s',Subject));
@@ -81,8 +67,10 @@ for k=1:nSubs
     else
        print(fig(k), '-append', '-dpsc2', 'User-Skill-Trace.pdf'); 
     end
+    gamma_list{k} = gamma;
+    
 end
-
+save('gamma_list.mat','gamma_list');
 
 end
 
