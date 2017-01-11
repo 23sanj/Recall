@@ -49,13 +49,13 @@ function [M R n_backs] = set_up(subList)
             TN(i,1) = input(index_TN); %TN
             FN(i,1) = input(index_FN); %FN
             TT(i,1) = input(index_TT); %FN            
-            TOTAL_STIMULUS(i,1) = TP(i,1) + FP(i,1) + TN(i,1) + FN(i,1);
+            TOTAL_STIMULUS(i,1) = TP(i,1) + FP(i,1) + TN(i,1);
         end
              n_back =sum(N_BACK.*TOTAL_STIMULUS)/sum(TOTAL_STIMULUS); %n-back for the session
             n_back = round(n_back); %Rounding nbacks
         if n_back ~= 0  %Eliminate 0-nbacks from model:
             n_backs(count,1)= n_back;
-            R(count,1) = sum(TP+TN); % # right for the session
+            R(count,1) = sum(TP); % # right for the session
             M(count,1)= sum(TOTAL_STIMULUS);% 
             count = count+1;
         end

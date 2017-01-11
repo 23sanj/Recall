@@ -12,7 +12,6 @@ for k=1:nSubs
     end
     [alpha,beta,scale] =alpha_beta_pass(A,Pi,B);
     
-    %gamma=alpha.*beta./sum(alpha.*beta,2); %Posterior state from smoothing
     gamma=alpha.*beta.*(1./scale)';
     N= size(B,1);
     sessions = linspace(1,N,N);
@@ -24,16 +23,9 @@ for k=1:nSubs
     fig(k)= figure;
     h1 = axes;
     
-    map = [1 1 1; %White
-           1 0.8 0.8; %mauve
-           1 1 0.4;%Yellow
-           1 0.6 0.3; %Orange
-           1 0 0;]; %Dark-red
-    
     
     a=subplot(2, 1, 1);  
     imagesc(gamma');
-    colormap(map);
     caxis([0, 1])
     colorbar;
     set(gca,'YDir','normal');

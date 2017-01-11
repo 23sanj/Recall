@@ -23,16 +23,9 @@ for k=1:nSubs
     fig(k)= figure;
     h1 = axes;
     
-    map = [1 1 1; %White
-           1 1 0.9; %cream
-           1 1 0.4;%Yellow
-           1 0.6 0.3; %Orange
-           1 0 0;]; %Dark-red
-    
     
     a=subplot(2, 1, 1);  
     imagesc(gamma');
-    colormap(map);
     caxis([0, 1])
     colorbar;
     set(gca,'YDir','normal');
@@ -45,7 +38,7 @@ for k=1:nSubs
     
     legend('Observed N-back','Predicted Skill');
     %title(sprintf('N-back skill level estimate for Subject= %s',Subject));
-    xlabel('Session Number');
+    xlabel('Episode Number');
     ylabel('N-back');
     
     b=subplot(2, 1, 2);

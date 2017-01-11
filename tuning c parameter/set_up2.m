@@ -56,7 +56,7 @@ function [M R n_backs] = set_up(subList)
                 TN(i,1) = input(index_TN); %TN
                 FN(i,1) = input(index_FN); %FN
                 TT(i,1) = input(index_TT); %FN            
-                TOTAL_STIMULUS(i,1) = TP(i,1) + FP(i,1) + TN(i,1) + FN(i,1);
+                TOTAL_STIMULUS(i,1) = TP(i,1) + FP(i,1) + TN(i,1);
             %end
         end
         if index_TT
@@ -82,7 +82,7 @@ function [M R n_backs] = set_up(subList)
  
 
  M= total_TOTAL_STIMULUS;
- R= total_TP + total_TN;
+ R= total_TP;
  n_backs = total_n_back; %Not eliminating 0 n-backs
  
 

@@ -49,7 +49,7 @@ function [M R n_backs] = set_up(subList)
             TN(i,1) = input(index_TN); %TN
             FN(i,1) = input(index_FN); %FN
             TT(i,1) = input(index_TT); %FN            
-            TOTAL_STIMULUS(i,1) = TP(i,1) + FP(i,1) + TN(i,1) + FN(i,1);
+            TOTAL_STIMULUS(i,1) = TP(i,1) + FP(i,1) + TN(i,1);
         end
         if index_TT
              foo=find(TT==0);
@@ -64,7 +64,7 @@ function [M R n_backs] = set_up(subList)
         end
         if n_back ~= 0  %Eliminate 0-nbacks from model:
             n_backs(count,1)= n_back;
-            R(count,1) = sum(TP(foo)+TN(foo)); % # right for the session
+            R(count,1) = sum(TP(foo)); % # right for the session
             M(count,1)= sum(TOTAL_STIMULUS(foo));% 
             count = count+1;
         end
