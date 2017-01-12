@@ -19,18 +19,10 @@ for i=1:N
    denom(i) =sum(numer(i,:)); 
 end    
 
-logP=0;
-for t=1:T
-    if scale(t) == 0
-        continue;
-    else
-        logP= logP + log(scale(t));
-    end
-    
-end
 
-logP = -logP;%log likelihood of data
-P= exp(logP);
+P = 1./prod(scale);
+%logP = -logP;%log likelihood of data
+%P= exp(logP);
 
 end
 

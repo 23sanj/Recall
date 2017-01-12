@@ -12,7 +12,7 @@ P_SEQ = zeros(n_sessions,n_X);
 
 for i=1:n_sessions
     %Applying item response theory:
-    rho = 1.2; %The discrimination parameter is set for now
+    rho = 0.2; %The discrimination parameter is set for now
     n_back = n_backs(i); 
     r = R(i);
     m = M(i);
