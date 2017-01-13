@@ -10,13 +10,16 @@ nSubs = numel (subjects); %Number of subjects
 subList =cell(nSubs,1);
 
 rhos= linspace(0.1,2,20);
-Models_rho = cell(20,1);
-log_lik = zeros(20,1);
+c_values= linspace(0,1,20);
 
-n_backs_list = cell(nSubs,numel(rhos));
-M_list = cell(nSubs,numel(rhos));
-R_list = cell(nSubs,numel(rhos));
-B_list = cell(nSubs,numel(rhos));
+Models_rho = cell(20,20);
+log_lik = zeros(20,20);
+
+
+n_backs_list = cell(nSubs,numel(rhos),numel(c_values));
+M_list = cell(nSubs,numel(rhos),numel(c_values));
+R_list = cell(nSubs,numel(rhos),numel(c_values));
+B_list = cell(nSubs,numel(rhos),numel(c_values));
 
 %Collecting data across all subjects
 for k = 1:nSubs
@@ -32,15 +35,19 @@ for k = 1:nSubs
         if(isempty(files) == 0)
             t=1;
             for rho=rhos %For each rho
-                subList{k} =files;
-                [M,R,n_backs] = set_up2(subList{k});  %Getting the required values from all sessions
-                n_backs_list{k,t} = n_backs;
-                M_list{k,t} = M;
-                R_list{k,t} = R;
+                s=1;
+                for c= c_values %For each c value
+                    subList{k} =files;
+                    [M,R,n_backs] = set_up2(subList{k});  %Getting the required values from all sessions
+                    n_backs_list{k,t,s} = n_backs;
+                    M_list{k,t,s} = M;
+                    R_list{k,t,s} = R;
              
              
-                [B,X] = compute_emission_prob(M,R,n_backs,rho); %Computing the emission prob for each training seq
-                 B_list{k,t} = B;
+                    [B,X] = compute_emission_prob(M,R,n_backs,rho,c); %Computing the emission prob for each training seq
+                    B_list{k,t,s} = B;
+                    s=s+1;
+                end
                 t=t+1;
             end 
             
@@ -57,23 +64,26 @@ save('R.mat','R_list');
 t=1;
 %Performing grid search
 for rho=rhos %For each rho
-   [A,loglik]=baum_welch_cont(X,B_list(:,t)); %Applying Baum Welch to re-estimate the parameters
-    Models_rho{t} = A;
-    log_lik(t) =loglik; %Matrix of liklihood for 20 rhos
+    s=1;
+    for c=c_values
+        [A,loglik]=baum_welch_cont(X,B_list(:,t,s)); %Applying Baum Welch to re-estimate the parameters
+        Models_rho{t,s} = A;
+        log_lik(t,s) =loglik; %Matrix of liklihood for 20 rhos
+        s=s+1;
+    end
     t=t+1;
 end  
 %Find maximum log-likelihood and corresponding rho
-[max_val,max_ind] = max(log_lik); %Find the index corresponding to max log-likelihood
-A =  Models_rho{max_ind};
-picked_rho = rhos(max_ind);
+%[max_val,max_ind] = max(max(log_lik)); %Find the index corresponding to max log-likelihood
+[num idx] = max(log_lik(:));
+[x y] = ind2sub(size(log_lik),idx);
 
+A =  Models_rho{x,y};
+picked_rho = rhos(x);
+picked_c = c_values(y);
 save('A.mat','A');
 save('log_lik.mat','log_lik');
 save('picked_rho.mat','picked_rho');
+save('picked_c.mat','picked_c');
 save('Models_rho.mat','Models_rho');
-plot(rhos,log_lik);
-title('Likelihood vs rho');
-xlabel('rho');
-ylabel('Log-likelihood');
-
 end

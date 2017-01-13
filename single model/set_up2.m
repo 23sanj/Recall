@@ -55,8 +55,8 @@ function [M R n_backs] = set_up(subList)
             n_back = round(n_back); %Rounding nbacks
         if n_back ~= 0  %Eliminate 0-nbacks from model:
             n_backs(count,1)= n_back;
-            R(count,1) = sum(TP+TN); % # right for the session
-            M(count,1)= sum(TOTAL_STIMULUS);% 
+            R(count,1) = sum(TP); % # right for the session
+            M(count,1)= sum(TP + FP + TN);% 
             count = count+1;
         end
      end
