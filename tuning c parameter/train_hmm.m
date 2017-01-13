@@ -2,7 +2,7 @@
 
 function [] = train_hmm( )
 
-DataDir = '/home/csgrads/ssand024/Desktop/n-back/GameplayData/Conditions/2 Tapback (Active Control)/'; % Directory name
+DataDir = '/Users/sanjana/Documents/MATLAB/single model/GameplayData/Conditions/2 Tapback (Active Control)/'; % Directory name
 %Creating a list of directories for the subjects:
 subjects=dir([DataDir]);
 subjects(~[subjects.isdir]) = []; %Clean up
@@ -13,6 +13,10 @@ c_values= linspace(0,1,20);
 Models_c = cell(20,1);
 log_lik = zeros(20,1);
 
+n_backs_list = cell(nSubs,numel(c_values));
+M_list = cell(nSubs,numel(c_values));
+R_list = cell(nSubs,numel(c_values));
+B_list = cell(nSubs,numel(c_values));
 
 %Collecting data across all subjects
 for k = 1:nSubs

@@ -12,7 +12,6 @@ for k=1:nSubs
     end
     [alpha,beta,scale] =alpha_beta_pass(A,Pi,B);
     
-    %gamma=alpha.*beta./sum(alpha.*beta,2); %Posterior state from smoothing
     gamma=alpha.*beta.*(1./scale)';
     N= size(B,1);
     sessions = linspace(1,N,N);
@@ -24,16 +23,9 @@ for k=1:nSubs
     fig(k)= figure;
     h1 = axes;
     
-    map = [1 1 1; %White
-           1 1 0.9; %mauve
-           1 1 0.4;%Yellow
-           1 0.6 0.3; %Orange
-           1 0 0;]; %Dark-red
-    
     
     a=subplot(2, 1, 1);  
     imagesc(gamma');
-    colormap(map);
     caxis([0, 1])
     colorbar;
     set(gca,'YDir','normal');
@@ -46,7 +38,7 @@ for k=1:nSubs
     
     legend('Observed N-back','Predicted Skill');
     %title(sprintf('N-back skill level estimate for Subject= %s',Subject));
-    xlabel('Session Number');
+    xlabel('Episode Number');
     ylabel('N-back');
     
     b=subplot(2, 1, 2);
@@ -65,9 +57,9 @@ for k=1:nSubs
     set(h,'Visible','on');
     
     if k==1
-        print(fig(k), '-dpsc2', 'User-Skill-Trace.pdf');
+        print(fig(k), '-dpsc2', 'User-Skill-Trace.ps');
     else
-       print(fig(k), '-append', '-dpsc2', 'User-Skill-Trace.pdf'); 
+       print(fig(k), '-append', '-dpsc2', 'User-Skill-Trace.ps'); 
     end
     gamma_list{k} = gamma;
     
