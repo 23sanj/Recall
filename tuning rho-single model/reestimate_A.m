@@ -1,4 +1,4 @@
-function [A_,logP] = reestimate_A(A,B_list)
+function [A_,Pi_,logP] = reestimate_A(A,Pi,B_list)
 A_ = zeros(size(A));
 N = size(A,1);
 K= numel(B_list);
@@ -8,6 +8,8 @@ K= numel(B_list);
 
 sum_numer = zeros(N,N);
 sum_denom = zeros(N,1);
+sum_Pi_hat = zeros(N,1);
+
 P_list = cell(K,1);
 for i=1:N
    for j=1:N
@@ -16,17 +18,18 @@ for i=1:N
             if (isempty(B) == 1)
                 continue;
             end
-            [numer,denom,P] =single_seq(A,B);
+            [Pi_hat,numer,denom,P] =single_seq(A,Pi,B);
             P_list{k} = P;
             if denom(i) ~= 0
                 sum_numer(i,j) = sum_numer(i,j) + (numer(i,j)/denom(i)); 
             end
+            sum_Pi_hat(i,1) = sum_Pi_hat(i,1) + Pi_hat(i,1);
         end
    end
     sum_denom(i) =sum(sum_numer(i,:));
 end
 
-
+Pi_ = sum_Pi_hat./sum(sum_Pi_hat);
 %Calculate total likelihood of data:
 logP =0;
 for k=1:K

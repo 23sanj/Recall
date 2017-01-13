@@ -1,4 +1,4 @@
-function [alpha,beta,scale] = alpha_beta_pass(A,P_SEQ)
+function [alpha,beta,scale] = alpha_beta_pass(A,Pi,P_SEQ)
 %Compute alpha and the scale
 N= size(P_SEQ,2);
 T= size(P_SEQ,1);
@@ -8,13 +8,13 @@ alpha = zeros(T,N);
 beta = ones(T,N);
 
 
-Pi = zeros(1,N); % Pi ~ 1/N
-Pi(1) = 1; 
-Pi(2:end) =0;
+
+%Pi(1) = 1; 
+%Pi(2:end) =0;
 
 scale = zeros(1,T); %Scaling
 
-alpha(1,:) = Pi .*P_SEQ(1,:);  %alpha at t=1
+alpha(1,:) = Pi(1,:).*P_SEQ(1,:);  %alpha at t=1
 scale(1) = 1 ./ sum(alpha(1, :));
 alpha(1,:) = alpha(1, :) * scale(1);
 

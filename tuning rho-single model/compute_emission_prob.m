@@ -1,4 +1,4 @@
-function [P_SEQ,X] = compute_emission_prob(M,R,n_backs,rho)
+function [P_SEQ,X] = compute_emission_prob(M,R,n_backs,rho,c)
 %SEQ is a matrix returned, where every row corresponds to a sequence of a session. 
 %is a matrix of sequences for all sessions.
 %Control input: z= m, n_back
@@ -18,7 +18,7 @@ for i=1:n_sessions
     m = M(i);
     %IRT model:
     q_plug = rho*(X- n_back);
-    q= 1.0 ./ ( 1.0 + exp(-q_plug)); % a vector with 20 values corresponding to the probability 
+    q= c + (1.0 -c)./ ( 1.0 + exp(-q_plug)); % a vector with 20 values corresponding to the probability 
      pos_q = q.^r; %taking logs as the probabiltities are small
     neg_q =(1-q).^(m-r);
     
