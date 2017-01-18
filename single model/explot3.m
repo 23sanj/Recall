@@ -10,7 +10,7 @@ for k=1:nSubs
     if (isempty(B) == 1)
        continue;
     end
-    [gamma,pSeq, fs, bs, s] = fwd_bk(A,B,Pi); % pStates is the answer
+    [gamma,pSeq, fs, bs, s] = fwd_bk(A,B,Pi); % gamma= alpha_hat*beta_hat 
     
    % gamma=alpha.*beta.*(1./scale)';
     N= size(B,1);
@@ -23,15 +23,18 @@ for k=1:nSubs
     fig(k)= figure;
     h1 = axes;
     
+    a=subplot(2, 1, 1);
+    topAxs = gca;
+    topAxsRatio = get(topAxs,'PlotBoxAspectRatio');
+    axis on; 
+    imagesc(gamma);
     
-    a=subplot(2, 1, 1);  
-    imagesc(gamma');
     caxis([0, 1])
     colorbar;
     set(gca,'YDir','normal');
     set(gca,'YTick',[1,2,3,4,5]);
     hold on;
-    scatter(sessions+0.2,n_backs,'kx');
+    scatter(sessions+0.2,n_backs,'rx');
     ylim([1 9]);
     
     
@@ -42,6 +45,13 @@ for k=1:nSubs
     ylabel('N-back');
     
     b=subplot(2, 1, 2);
+    botAxs = gca;
+    botAxsRatio = topAxsRatio;
+    botAxsRatio(2) = topAxsRatio(2)/1.88;    % NOTE: not exactly 3...
+    set(botAxs,'PlotBoxAspectRatio', botAxsRatio)
+    
+    
+    
     scatter(sessions,Y1,'o');
     hold on;
     scatter(sessions,Y2,'x');
@@ -55,6 +65,14 @@ for k=1:nSubs
     h = title(sprintf('Subject= %s',Subject));
     set(gca,'Visible','off');
     set(h,'Visible','on');
+    
+    % Find current position [x,y,width,height]
+    pos1 = get(a, 'Position');
+    pos2 = get(b, 'Position'); 
+    %
+    % Set width of second axes equal to first
+    pos2(3) = pos1(3);
+    set(a,'Position',pos1);
     
     if k==1
         print(fig(k), '-dpsc2', 'User-Skill-Trace.ps');
