@@ -1,7 +1,7 @@
 %Function to read the session file and set up the values for y and n back
 %files is the list of session files for a subject
 
-function [M R n_backs] = set_up(subList)
+function [M R n_backs] = set_up2(subList)
     f_size = numel(subList);
      n_backs = zeros(f_size,1);
     R = zeros(f_size,1);
@@ -82,7 +82,7 @@ function [M R n_backs] = set_up(subList)
  
 
  M= total_TOTAL_STIMULUS;
- R= total_TP;
+ R= total_TP ;
  n_backs = total_n_back;
  
  if isempty(find(M == 0)) ==0

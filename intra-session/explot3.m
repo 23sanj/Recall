@@ -10,9 +10,9 @@ for k=1:nSubs
     if (isempty(B) == 1)
        continue;
     end
-    [alpha,beta,scale] =alpha_beta_pass(A,Pi,B);
+    [gamma,pSeq, fs, bs, s] = fwd_bk(A,B,Pi); % gamma= alpha_hat*beta_hat 
     
-    gamma=alpha.*beta.*(1./scale)';
+   % gamma=alpha.*beta.*(1./scale)';
     N= size(B,1);
     sessions = linspace(1,N,N);
     
@@ -21,27 +21,27 @@ for k=1:nSubs
     Subject =strsplit(Subject,'-');
     Subject = Subject{1};
     fig(k)= figure;
-    h1 = axes;
     
+    h= zeros(1,2);
+    h(1)=subplot(2, 1, 1);
+    imagesc(gamma);
     
-    a=subplot(2, 1, 1);  
-    imagesc(gamma');
     caxis([0, 1])
     colorbar;
     set(gca,'YDir','normal');
     set(gca,'YTick',[1,2,3,4,5]);
     hold on;
-    scatter(sessions+0.2,n_backs,'kx');
+    scatter(sessions+0.2,n_backs,'rx');
     ylim([1 9]);
     
     
     
     legend('Observed N-back','Predicted Skill');
     %title(sprintf('N-back skill level estimate for Subject= %s',Subject));
-    xlabel('Episode Number');
+    xlabel('Session Number');
     ylabel('N-back');
     
-    b=subplot(2, 1, 2);
+    h(2)=subplot(2, 1, 2);
     scatter(sessions,Y1,'o');
     hold on;
     scatter(sessions,Y2,'x');
@@ -52,9 +52,22 @@ for k=1:nSubs
     ylabel('Classification Accuracy');
      set(gcf,'NextPlot','add');
     axes;
-    h = title(sprintf('Subject= %s',Subject));
+    ht = title(sprintf('Subject= %s',Subject));
     set(gca,'Visible','off');
-    set(h,'Visible','on');
+    set(ht,'Visible','on');
+    
+    
+    c= get(h(1));
+    position =c.XLim;
+    x1 = position(2);
+     c= get(h(2));
+    position =c.XLim;
+    x2 = position(2);
+    set(h(2), 'XLim',[0.5 x1]);
+    
+
+    
+    saveas(fig(k),'fig1.fig');
     
     if k==1
         print(fig(k), '-dpsc2', 'User-Skill-Trace.ps');

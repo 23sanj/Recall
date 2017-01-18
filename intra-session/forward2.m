@@ -12,22 +12,32 @@ for i=1:N
     Mean_B(:,i) = sum(B(:,i).*(R./M));
 end
 %Computing alpha:
-scale = zeros(1,T); %Scaling
+B=B';
 
-alpha(1,:) = Pi(1,:).*B(1,:);  %alpha at t=1
-scale(1) = 1 ./ sum(alpha(1, :));
-alpha(1,:) = alpha(1, :) * scale(1); 
+fs = zeros(N,T);
+s = zeros(1,T);
+fs(1,1) = 1;  % assume that we start in state 1.
 
-for t = 2:T
-    alpha(t,:) = (alpha(t-1,:) * A) .* B(t, :);
-    scale(t) = 1 ./ sum(alpha(t, :));
-    alpha(t, :) = alpha(t, :) * scale(t);
+%fs(:,1) = Pi(:).*B(:,1);  %alpha at t=1
+%s(1) = sum(fs(1, :));
+%fs(:,1) = fs(:,1) ./ s(1);
+
+s(1) = 1;
+for count = 2:T
+    for state = 1:N
+        fs(state,count) = B(state,count) .* (sum(fs(:,count-1) .*A(:,state)));
+    end
+    % scale factor normalizes sum(fs,count) to be 1. 
+    s(count) =  sum(fs(:,count));
+    fs(:,count) =  fs(:,count)./s(count);
 end
 
-Y_hat =  alpha*Mean_B'; %Summing over all states
 
+Y_hat = Mean_B*fs; %Summing over all states
+Y_hat = Y_hat';
 %Compute error:
 Ratio = R./M
 err= (Y_hat-Ratio);
+
 end
 

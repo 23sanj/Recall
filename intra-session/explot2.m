@@ -2,8 +2,8 @@ function [] = explot2(Y_hat_list,Ratio,subList)
 %Plotting for every subject:
 nSubs = numel (Y_hat_list);
 Diff = cell(nSubs,1);
-sum_diff =zeros(1000,1);
-sum_diff_2 =zeros(1000,1);
+sum_diff =zeros(100,1);
+sum_diff_2 =zeros(100,1);
 count=0;
 for k=1:nSubs
     Y1= Y_hat_list{k}; %Actual Value
@@ -41,7 +41,8 @@ end
      var_res = sqrt(sum_diff_2/count);
      mean_res = mean_res(1:rem_idx-1);
     
-    N = size(mean_res,1);
+    %N = size(mean_res,1);
+    N=20;%Eliminating sessions 21 and 22
     sessions = linspace(1,N,N);
    % boxplot(sum_diff,sessions, 'plotstyle', 'compact');
      bar(mean_res,'BaseValue',0);   

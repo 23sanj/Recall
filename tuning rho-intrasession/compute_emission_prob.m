@@ -16,9 +16,10 @@ for i=1:n_sessions
     n_back = n_backs(i); 
     r = R(i);
     m = M(i);
+    c=0;
     %IRT model:
     q_plug = rho*(X- n_back);
-    q= 1.0 ./ ( 1.0 + exp(-q_plug)); % a vector with 20 values corresponding to the probability 
+    q= c + (1.0 -c)./ ( 1.0 + exp(-q_plug)); % a vector with 20 values corresponding to the probability 
      pos_q = q.^r; %taking logs as the probabiltities are small
     neg_q =(1-q).^(m-r);
     

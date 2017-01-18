@@ -10,9 +10,14 @@ nSubs = numel (subjects); %Number of subjects
 subList =cell(nSubs,1);
 
 rhos= linspace(0.1,2,20);
-Models_rho = cell(20,1);
+Models_A = cell(20,1);
+Models_Pi = cell(20,1);
 log_lik = zeros(20,1);
 
+n_backs_list = cell(nSubs,numel(rhos));
+M_list = cell(nSubs,numel(rhos));
+R_list = cell(nSubs,numel(rhos));
+B_list = cell(nSubs,numel(rhos));
 
 %Collecting data across all subjects
 for k = 1:nSubs
@@ -22,23 +27,28 @@ for k = 1:nSubs
         %Now open all the session files
         files = [dir([DataDir subject_name '/*.session']);dir([DataDir subject_name '/*.csv'])]; 
         [files]=filter_files(files);%Function to get rid of files with lower than 81 entries
-        %Arranging the files in order of sessions:
+         %Arranging the files in order of sessions:
         [blah, order] = sort([files(:).datenum],'ascend');
         files = files(order);
         if(isempty(files) == 0)
             t=1;
             for rho=rhos %For each rho
-                subList{k} =files;
-                [M,R,n_backs] = set_up2(subList{k});  %Getting the required values from all sessions
-                n_backs_list{k,t} = n_backs;
-                M_list{k,t} = M;
-                R_list{k,t} = R;
+                s=1;
+                %for c=c_values
+                    subList{k} =files;
+                    [M,R,n_backs] = set_up2(subList{k});  %Getting the required values from all sessions
+                    n_backs_list{k,t} = n_backs;
+                    M_list{k,t} = M;
+                    R_list{k,t} = R;
              
              
-                [B,X] = compute_emission_prob(M,R,n_backs,rho); %Computing the emission prob for each training seq
-                 B_list{k,t} = B;
+                    [B,X] = compute_emission_prob(M,R,n_backs,rho); %Computing the emission prob for each training seq
+                    B_list{k,t} = B;
+                    %s=s+1;
+                %end
                 t=t+1;
             end 
+            
         end
     end
     
@@ -52,22 +62,29 @@ save('R.mat','R_list');
 t=1;
 %Performing grid search
 for rho=rhos %For each rho
-   [A,loglik]=baum_welch_cont(X,B_list(:,t)); %Applying Baum Welch to re-estimate the parameters
-    Models_rho{t} = A;
-    log_lik(t) =loglik; %Matrix of liklihood for 20 rhos
+  %  s=1;
+   % for c=c_values
+        [A,Pi,loglik] = baum_welch(X,B_list(:,t));%Applying Baum Welch to re-estimate the parameters
+        Models_A{t,1} = A;
+        Models_Pi{t,1} = Pi;
+        log_lik(t,1) =loglik; %Matrix of liklihood for 20 rhos
+      %  s=s+1;
+    %end
     t=t+1;
 end  
+save('log_lik.mat','log_lik');
 %Find maximum log-likelihood and corresponding rho
-[max_val,max_ind] = max(log_lik); %Find the index corresponding to max log-likelihood
-A =  Models_rho{max_ind};
-picked_rho = rhos(max_ind);
+[num idx] = max(log_lik(:));
+[x] = ind2sub(size(log_lik),idx); %Find the index corresponding to max log-likelihood
+
+A =  Models_A{x,1};
+Pi =  Models_Pi{x,1};
+picked_rho = rhos(x);
 
 save('A.mat','A');
-save('log_lik.mat','log_lik');
+
 save('picked_rho.mat','picked_rho');
-save('Models_rho.mat','Models_rho');
-plot(rhos,log_lik);
-title('Likelihood vs rho');
-xlabel('rho');
-ylabel('Log-likelihood');
+save('picked_c.mat','picked_c');
+save('Models_A.mat','Models_A');
+save('Models_Pi.mat','Models_Pi');
 end
