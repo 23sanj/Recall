@@ -1,9 +1,10 @@
 function [] = test_hmm(A,Pi)
 
-DataDir = '/Users/sanjana/Documents/MATLAB/single model/GameplayData/Conditions/3 Recall(NonHoldout)/'; % Directory name
+DataDir = '/home/csgrads/ssand024/Desktop/n-back/GameplayData/Conditions/3 Recall(NonHoldout)/'; % Directory name
 %Creating a list of directories for the subjects:
 subjects=dir([DataDir]);
 subjects(~[subjects.isdir]) = []; %Clean up
+%nSubs = 20;
 nSubs = numel (subjects); %Number of subjects
 subList =cell(nSubs,1);
 n_backs_list = cell(nSubs,1);

@@ -2,7 +2,7 @@
 
 function [] = train_hmm( )
 
-DataDir = '/Users/sanjana/Documents/MATLAB/single model/GameplayData/Conditions/2 Tapback (Active Control)/'; % Directory name
+DataDir = '/home/csgrads/ssand024/Desktop/n-back/GameplayData/Conditions/2 Tapback (Active Control)/'; % Directory name
 %Creating a list of directories for the subjects:
 subjects=dir([DataDir]);
 subjects(~[subjects.isdir]) = []; %Clean up
@@ -37,7 +37,8 @@ for k = 1:nSubs
     
 end
 save('B_list.mat','B_list');
-[A,Pi]=baum_welch_cont(X,B_list); %Applying Baum Welch to re-estimate the parameters
+[A,Pi,loglik] = baum_welch(X,B_list);
+%[A,Pi]=baum_welch_cont(X,B_list); %Applying Baum Welch to re-estimate the parameters
 save('A.mat','A');
 save('Pi.mat','Pi');
 

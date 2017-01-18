@@ -12,16 +12,12 @@ P_SEQ = zeros(n_sessions,n_X);
 
 for i=1:n_sessions
     %Applying item response theory:
-    rho = 0.2; %The discrimination parameter is set for now
+    rho = 0.6; %The discrimination parameter is set for now
     n_back = n_backs(i); 
     r = R(i);
     m = M(i);
     %IRT model:
-<<<<<<< HEAD
-    c = 0.1053;
-=======
-    c = 0.3158;
->>>>>>> 00a72178647311a5cc7cf333f1892f6387520d40
+    c = 0.1;
     q_plug = rho*(X- n_back);
     q= c + (1.0 - c)./ ( 1.0 + exp(-q_plug)); % a vector with 20 values corresponding to the probability 
      pos_q = q.^r; %taking logs as the probabiltities are small

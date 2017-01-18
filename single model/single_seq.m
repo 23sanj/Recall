@@ -30,7 +30,7 @@ Pi_hat(:,1)=  alpha(1,:).*beta(1,:)/scale(1); %Check??
 logP=0;
 for t=1:T
     if scale(t) == 0
-        continue;
+       continue;
     else
         logP= logP + log(scale(t));
     end

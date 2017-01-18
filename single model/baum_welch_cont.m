@@ -12,25 +12,36 @@ for i=1:N
     A(i,:) = A(i,:)./A_s(i); %So that the rows sum up to 1
 end
 
-Pi = repmat(1/N,1,N); % Pi ~ 1/N
+Pi = rand(1,N); % Pi ~ 1/N
+Pi= Pi./sum(Pi);
 
-maxIters = 15; %Maximum number of re-estimation iterations
+maxIters = 500; %Maximum number of re-estimation iterations
 it = 1;
+
+logliks = zeros(maxIters,1);
 
 logPold = -Inf;
 %Estmate:
 [A,Pi,logP] = reestimate_A(A,Pi,B_list); %Here logP  is the log-likelihood
-
-while it< maxIters && abs(logPold - logP) >= err
-    %if gt(logPold,logP) == 0
+converged = false;
+while it< maxIters 
+      if (abs(logPold - logP)/(1+abs(logPold))) < err
+         converged = true;
+         break;
+      end
+    
         logPold = logP;
         [A,Pi,logP] = reestimate_A(A,Pi,B_list); %Re-estimate the model
+        logliks(it) = logP;
         it = it + 1;
-    %else 
-     %   break;
-    %end
+       
 end
 
+logliks(logliks ==0) = [];
+loglik = max(logliks);
+
+save('logliks.mat','logliks');
+save('loglik.mat','loglik');
 
 end
 
