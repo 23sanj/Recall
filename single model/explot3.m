@@ -10,9 +10,9 @@ for k=1:nSubs
     if (isempty(B) == 1)
        continue;
     end
-    [alpha,beta,scale] =alpha_beta_pass(A,Pi,B);
+    [gamma,pSeq, fs, bs, s] = fwd_bk(A,B,Pi); % pStates is the answer
     
-    gamma=alpha.*beta.*(1./scale)';
+   % gamma=alpha.*beta.*(1./scale)';
     N= size(B,1);
     sessions = linspace(1,N,N);
     

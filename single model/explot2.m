@@ -41,7 +41,8 @@ end
      var_res = sqrt(sum_diff_2/count);
      mean_res = mean_res(1:rem_idx-1);
     
-    N = size(mean_res,1);
+    %N = size(mean_res,1);
+    N=20;%Eliminating sessions 21 and 22
     sessions = linspace(1,N,N);
    % boxplot(sum_diff,sessions, 'plotstyle', 'compact');
      bar(mean_res,'BaseValue',0);   

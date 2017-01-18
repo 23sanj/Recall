@@ -37,8 +37,25 @@ for k = 1:nSubs
     
 end
 save('B_list.mat','B_list');
-[A,Pi,loglik] = baum_welch(X,B_list);
-%[A,Pi]=baum_welch_cont(X,B_list); %Applying Baum Welch to re-estimate the parameters
+log_P = zeros(10,1);
+A_rr = cell(10,1);
+Pi_rr = cell(10,1);
+for i=1:10 %Random Restarts to avoid getting stuck in local maxima
+    [A,Pi,loglik] = baum_welch(X,B_list);
+    A_rr{i} = A;
+    Pi_rr{i} = Pi;
+    log_P(i) = loglik;
+end
+    %[A,Pi]=baum_welch_cont(X,B_list); %Applying Baum Welch to re-estimate the parameters
+save('A_rr.mat','A_rr');
+save('Pi_rr.mat','Pi_rr');
+save('log_P.mat','log_P');
+
+[num,idx] =max(log_P);
+
+A = A_rr{idx};
+Pi = Pi_rr{idx};
+
 save('A.mat','A');
 save('Pi.mat','Pi');
 
