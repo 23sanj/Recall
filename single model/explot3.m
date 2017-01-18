@@ -21,12 +21,9 @@ for k=1:nSubs
     Subject =strsplit(Subject,'-');
     Subject = Subject{1};
     fig(k)= figure;
-    h1 = axes;
     
-    a=subplot(2, 1, 1);
-    topAxs = gca;
-    topAxsRatio = get(topAxs,'PlotBoxAspectRatio');
-    axis on; 
+    h= zeros(1,2);
+    h(1)=subplot(2, 1, 1);
     imagesc(gamma);
     
     caxis([0, 1])
@@ -44,14 +41,7 @@ for k=1:nSubs
     xlabel('Session Number');
     ylabel('N-back');
     
-    b=subplot(2, 1, 2);
-    botAxs = gca;
-    botAxsRatio = topAxsRatio;
-    botAxsRatio(2) = topAxsRatio(2)/1.88;    % NOTE: not exactly 3...
-    set(botAxs,'PlotBoxAspectRatio', botAxsRatio)
-    
-    
-    
+    h(2)=subplot(2, 1, 2);
     scatter(sessions,Y1,'o');
     hold on;
     scatter(sessions,Y2,'x');
@@ -62,17 +52,22 @@ for k=1:nSubs
     ylabel('Classification Accuracy');
      set(gcf,'NextPlot','add');
     axes;
-    h = title(sprintf('Subject= %s',Subject));
+    ht = title(sprintf('Subject= %s',Subject));
     set(gca,'Visible','off');
-    set(h,'Visible','on');
+    set(ht,'Visible','on');
     
-    % Find current position [x,y,width,height]
-    pos1 = get(a, 'Position');
-    pos2 = get(b, 'Position'); 
-    %
-    % Set width of second axes equal to first
-    pos2(3) = pos1(3);
-    set(a,'Position',pos1);
+    
+    c= get(h(1));
+    position =c.XLim;
+    x1 = position(2);
+     c= get(h(2));
+    position =c.XLim;
+    x2 = position(2);
+    set(h(2), 'XLim',[0.5 x1]);
+    
+
+    
+    saveas(fig(k),'fig1.fig');
     
     if k==1
         print(fig(k), '-dpsc2', 'User-Skill-Trace.ps');
