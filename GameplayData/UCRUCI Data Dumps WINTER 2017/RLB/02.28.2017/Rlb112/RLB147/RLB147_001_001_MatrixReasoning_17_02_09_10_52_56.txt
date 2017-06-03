@@ -1,0 +1,12 @@
+%Recollect Version 2.3. Scene/Level: , Session: 1, GameNumber: 1
+%MatrixReasoning:Stage,ProblemNumber,CurrentResponse,CorrectResponse,NavigationDirection,TimeOfResponse
+2,0,7,7,0,1486666384304
+2,1,1,1,0,1486666387269
+2,2,1,2,0,1486666394136
+2,2,2,2,0,1486666398236
+2,0,2,2,0,1486666402053
+2,0,2,2,1,1486666402419
+2,1,4,4,0,1486666404820
+2,1,4,4,1,1486666405254
+2,2,0,6,0,1486666410587
+2,2,0,6,1,1486666411086

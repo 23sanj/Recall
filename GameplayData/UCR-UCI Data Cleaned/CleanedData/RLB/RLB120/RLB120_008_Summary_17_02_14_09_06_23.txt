@@ -1,0 +1,53 @@
+%Recollect Version 2.3; iPad: ; User: RLB120;
+%Span:2,Continent,Difficulty,Game Number,Highest Span Length Achieved,Current Span Length
+%NBack:4,Game Number,Scene/Level Played,Highest N Level Achieved,Current N Level
+%MultiObject:8,Continent,Difficulty,Game Number,Highest Number of Concurrent Bugs,Current Number of Concurrent Bugs
+%LameBack:32,Algorithm,Session,GameNumber,Accuracy,EndingNLevel,HighestNLevel,BayesianEstimates
+32,4,8,0,1,6,9,algoNotBayesian
+32,4,8,0,1,7,9,algoNotBayesian
+32,4,8,0,0.4545455,8,9,algoNotBayesian
+32,4,8,0,0.2,7,9,algoNotBayesian
+32,4,8,0,1,6,9,algoNotBayesian
+32,4,8,0,0,7,9,algoNotBayesian
+32,4,8,0,0.25,6,9,algoNotBayesian
+32,4,8,0,0.7142857,5,9,algoNotBayesian
+32,4,8,0,0.375,6,9,algoNotBayesian
+32,4,8,0,1,5,9,algoNotBayesian
+32,4,8,0,1,6,9,algoNotBayesian
+32,4,8,0,0.2,7,9,algoNotBayesian
+32,4,8,0,0,6,9,algoNotBayesian
+32,4,8,0,1,5,9,algoNotBayesian
+32,4,8,0,0.4285714,6,9,algoNotBayesian
+32,4,8,0,0.75,5,9,algoNotBayesian
+32,4,8,0,0.4,6,9,algoNotBayesian
+32,4,8,0,0.25,5,9,algoNotBayesian
+32,4,8,0,0.25,4,9,algoNotBayesian
+32,4,8,0,0.75,3,9,algoNotBayesian
+32,4,8,0,1,4,9,algoNotBayesian
+32,4,8,0,0.6666667,5,9,algoNotBayesian
+32,4,8,0,1,6,9,algoNotBayesian
+32,4,8,0,1,7,9,algoNotBayesian
+32,4,8,0,0,8,9,algoNotBayesian
+32,4,8,0,0,7,9,algoNotBayesian
+32,4,8,0,0,6,9,algoNotBayesian
+32,4,9,0,0.7142857,5,9,algoNotBayesian
+32,4,9,0,0,6,9,algoNotBayesian
+32,4,9,0,0.375,5,9,algoNotBayesian
+32,4,9,0,0.625,4,9,algoNotBayesian
+32,4,9,0,0.8,5,9,algoNotBayesian
+32,4,9,0,0.3333333,6,9,algoNotBayesian
+32,4,9,0,1,5,9,algoNotBayesian
+32,4,9,0,0.6,6,9,algoNotBayesian
+32,4,9,0,0.75,7,9,algoNotBayesian
+32,4,9,0,0.2,8,9,algoNotBayesian
+32,4,9,0,0.4666667,7,9,algoNotBayesian
+32,4,9,0,0.2727273,6,9,algoNotBayesian
+32,4,9,0,0.2857143,5,9,algoNotBayesian
+32,4,9,0,0.6666667,4,9,algoNotBayesian
+32,4,9,0,1,5,9,algoNotBayesian
+32,4,9,0,0.4444444,6,9,algoNotBayesian
+32,4,9,0,1,5,9,algoNotBayesian
+32,4,9,0,0.3076923,6,9,algoNotBayesian
+32,4,9,0,0.5,5,9,algoNotBayesian
+32,4,9,0,0.75,4,9,algoNotBayesian
+32,4,9,0,0.75,5,9,algoNotBayesian

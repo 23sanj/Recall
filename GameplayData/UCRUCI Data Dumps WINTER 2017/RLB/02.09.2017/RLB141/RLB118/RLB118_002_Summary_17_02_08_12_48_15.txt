@@ -1,0 +1,20 @@
+%Recollect Version 2.3; iPad: ; User: RLB118; Session: 2
+%Span:2,Continent,Difficulty,Game Number,Highest Span Length Achieved,Current Span Length
+%NBack:4,Game Number,Scene/Level Played,Highest N Level Achieved,Current N Level
+%MultiObject:8,Continent,Difficulty,Game Number,Highest Number of Concurrent Bugs,Current Number of Concurrent Bugs
+%LameBack:32,Algorithm,Session,GameNumber,Accuracy,EndingNLevel,HighestNLevel,BayesianEstimates
+32,7,2,0,0.375,6,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;0.5;3;0.5;4;0.5;5;0.5;6;0.7184211;7;0.5
+32,7,2,0,0.625,6,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;0.5;3;0.5;4;0.5;5;0.5;6;0.6133337;7;0.5
+32,7,2,0,1,6,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;0.5;3;0.5;4;0.5;5;0.5;6;0.5408583;7;0.5
+32,7,2,0,0.5,6,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;0.5;3;0.5;4;0.5;5;0.5;6;0.3698521;7;0.5
+32,7,2,0,0.8571429,6,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;0.5;3;0.5;4;0.5;5;1;6;0.2237089;7;0.5
+32,7,2,0,0.6666667,5,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.9822747;5;0.9356519;6;0.2237089;7;0.5
+32,7,2,0,1,6,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.9822747;5;0.9356519;6;0.06335497;7;0.5
+32,7,2,0,0.8571429,6,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.9822747;5;0.7974608;6;0;7;0.5
+32,7,2,0,1,5,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.9822747;5;0.7192855;6;0;7;0.5
+32,7,2,0,1,5,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.9822747;5;0.6097069;6;0;7;0.5
+32,7,2,0,0.4285714,5,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.9822747;5;0.3907149;6;0;7;0.5
+32,7,2,0,1,5,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.8342199;5;0.2235332;6;0;7;0.5
+32,7,2,0,1,4,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.7465522;5;0.2235332;6;0;7;0.5
+32,7,2,0,0.8571429,4,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.6075914;5;0.2235332;6;0;7;0.5
+32,7,2,0,1,4,7,BayesianEstimatedAccuracy(nLevel;estimate):1;0.6379526;2;0.7866592;3;0.899725;4;0.4579997;5;0.2235332;6;0;7;0.5

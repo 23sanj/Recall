@@ -1,0 +1,50 @@
+%Recollect Version 2.3, Session: 0
+%EventNumber,EventType,Data1,Data2,iPadTime,UnixTimeMS
+%EventType {0=StartMode, 1=BlockBegin, 2=BlockEnd, 3=StimulusPresented, 4=StimulusInteraction, 5=StimulusTimedOut, 6=Heartbeat, 7=DamageTaken, 8=AssessmentBegin, 9=AssessmentEnd, 10=BreakBegin, 11=BreakEnd}
+%EventData Breakout:
+%  StartMode {Data1=SessionNumber, Data2=GameMode}
+%  BlockBegin {Data1=BlockNumber, Data2=NLevel}
+%  BlockEnd {Data1=BlockNumber, Data2=NLevel}
+%  StimulusPresented {Data1=TrialType, Data2=Color}
+%  StimulusInteraction {Data1=TrialType, Data2=CorrectResponse}
+%  StimulusTimedOut {Data1=TrialType, Data2=CorrectResponse}
+%  Heartbeat {Data1=Enumeration, Data2=-}
+%  DamageTaken {Data1=LivesRemaining, Data2=-}
+%  AssessmentBegin {Data1=AssessmentNumber, Data2=-}
+%  AssessmentEnd {Data1=AssessmentNumber, Data2=-}
+%  BreakBegin {Data1=SessionNumber, Data2=-}
+%  BreakEnd {Data1=SessionNumber, Data2=-}
+%AssessmentNumber {0=MatrixReasoning, 1=LetterNumberTask, 2=SymmetrySpan, 3=CancellationTask, 4=Break, 5=CorsiBlocks, 6=NearTransfer, 7=DogsAndMonkeys}
+%GameMode {0=Recollect, 1=LameBack, 2=Assessments}
+0,6,0,-1,38287,1488236457025
+1,6,1,-1,48288,1488236467027
+2,6,2,-1,58321,1488236477060
+3,6,3,-1,68322,1488236487060
+4,6,4,-1,78339,1488236498861
+5,6,5,-1,88340,1488236508862
+6,6,6,-1,98340,1488236518862
+7,6,7,-1,108341,1488236528863
+8,6,8,-1,118341,1488236538863
+9,6,9,-1,128342,1488236548864
+10,6,10,-1,138342,1488236558865
+11,6,11,-1,148343,1488236568865
+12,6,12,-1,158344,1488236578866
+13,6,13,-1,168344,1488236588866
+14,6,14,-1,178345,1488236598867
+15,6,15,-1,188345,1488236608867
+16,6,16,-1,198346,1488236618869
+17,6,17,-1,208346,1488236628868
+18,6,18,-1,218347,1488236638869
+19,6,19,-1,228347,1488236648869
+20,6,20,-1,238348,1488236658870
+21,6,21,-1,248357,1488236700422
+22,6,22,-1,258358,1488236710424
+23,6,23,-1,268391,1488236720457
+24,6,24,-1,278392,1488236730457
+25,6,25,-1,288392,1488236740458
+26,6,26,-1,298393,1488236750459
+27,6,27,-1,308396,1488236760462
+28,6,28,-1,318427,1488236770493
+29,6,29,-1,328428,1488236780494
+30,0,0,1,333728,1488236785795
+31,6,30,-1,338449,1488236791445

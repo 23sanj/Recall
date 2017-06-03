@@ -1,0 +1,33 @@
+%Recollect Version 2.3; iPad: ; User: RLB108; Session: 8
+%Span:2,Continent,Difficulty,Game Number,Highest Span Length Achieved,Current Span Length
+%NBack:4,Game Number,Scene/Level Played,Highest N Level Achieved,Current N Level
+%MultiObject:8,Continent,Difficulty,Game Number,Highest Number of Concurrent Bugs,Current Number of Concurrent Bugs
+%LameBack:32,Algorithm,Session,GameNumber,Accuracy,EndingNLevel,HighestNLevel,BayesianEstimates
+32,1,8,0,1,2,5,algoNotBayesian
+32,1,8,0,0.625,3,5,algoNotBayesian
+32,1,8,0,0.8333333,3,5,algoNotBayesian
+32,1,8,0,0.6,4,5,algoNotBayesian
+32,1,8,0,0.75,4,5,algoNotBayesian
+32,1,8,0,0.1538462,5,5,algoNotBayesian
+32,1,8,0,0.6666667,4,5,algoNotBayesian
+32,1,8,0,0.8333333,4,5,algoNotBayesian
+32,1,8,0,0.6666667,5,5,algoNotBayesian
+32,1,8,0,0,6,6,algoNotBayesian
+32,1,8,0,0.3333333,5,6,algoNotBayesian
+32,1,8,0,0.375,5,6,algoNotBayesian
+32,1,8,0,0.125,5,6,algoNotBayesian
+32,1,8,0,0.5,4,6,algoNotBayesian
+32,1,9,0,0.6666667,3,6,algoNotBayesian
+32,1,9,0,0.8333333,3,6,algoNotBayesian
+32,1,9,0,0.5,4,6,algoNotBayesian
+32,1,9,0,0.5714286,4,6,algoNotBayesian
+32,1,9,0,0.5555556,4,6,algoNotBayesian
+32,1,9,0,0.4285714,4,6,algoNotBayesian
+32,1,9,0,0.5714286,4,6,algoNotBayesian
+32,1,9,0,0.75,4,6,algoNotBayesian
+32,1,9,0,0.2222222,5,6,algoNotBayesian
+32,1,9,0,0.6666667,4,6,algoNotBayesian
+32,1,9,0,0.2857143,5,6,algoNotBayesian
+32,1,9,0,0.5714286,5,6,algoNotBayesian
+32,1,9,0,0.4285714,5,6,algoNotBayesian
+32,1,9,0,0.4444444,5,6,algoNotBayesian

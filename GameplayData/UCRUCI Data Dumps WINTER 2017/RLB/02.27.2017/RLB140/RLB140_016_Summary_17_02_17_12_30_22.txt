@@ -1,0 +1,20 @@
+%Recollect Version 2.3; iPad: ; User: RLB140; Session: 16
+%Span:2,Continent,Difficulty,Game Number,Highest Span Length Achieved,Current Span Length
+%NBack:4,Game Number,Scene/Level Played,Highest N Level Achieved,Current N Level
+%MultiObject:8,Continent,Difficulty,Game Number,Highest Number of Concurrent Bugs,Current Number of Concurrent Bugs
+%LameBack:32,Algorithm,Session,GameNumber,Accuracy,EndingNLevel,HighestNLevel,BayesianEstimates
+32,4,16,0,0,41,42,algoNotBayesian
+32,4,16,0,1,40,42,algoNotBayesian
+32,4,16,0,0.75,41,42,algoNotBayesian
+32,4,16,0,0,42,42,algoNotBayesian
+32,4,16,0,1,41,42,algoNotBayesian
+32,4,16,0,1,42,42,algoNotBayesian
+32,4,16,0,0,43,43,algoNotBayesian
+32,4,16,0,0,42,43,algoNotBayesian
+32,4,17,0,0.6,40,43,algoNotBayesian
+32,4,17,0,1,41,43,algoNotBayesian
+32,4,17,0,0.8,42,43,algoNotBayesian
+32,4,17,0,1,43,43,algoNotBayesian
+32,4,17,0,0,44,44,algoNotBayesian
+32,4,17,0,1,43,44,algoNotBayesian
+32,4,17,0,1,44,44,algoNotBayesian

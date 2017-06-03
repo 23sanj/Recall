@@ -1,0 +1,41 @@
+%Recollect Version 2.3; iPad: ; User: RLB132; Session: 14
+%Span:2,Continent,Difficulty,Game Number,Highest Span Length Achieved,Current Span Length
+%NBack:4,Game Number,Scene/Level Played,Highest N Level Achieved,Current N Level
+%MultiObject:8,Continent,Difficulty,Game Number,Highest Number of Concurrent Bugs,Current Number of Concurrent Bugs
+%LameBack:32,Algorithm,Session,GameNumber,Accuracy,EndingNLevel,HighestNLevel,BayesianEstimates
+32,6,14,0,1,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.1428571,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.625,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.625,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.4285714,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.3333333,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.8571429,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.8333333,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.625,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.625,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.8571429,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.8333333,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.7142857,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,1,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.6666667,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.8333333,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.625,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,14,0,0.8333333,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.7142857,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.625,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.7142857,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.5714286,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,1,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.625,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,1,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.5,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,1,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.4,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.5555556,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.3333333,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,1,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.8333333,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,1,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.1666667,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.8333333,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5
+32,6,15,0,0.8333333,2,6,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;NaN;3;0.5;4;0.5;5;0.5;6;0.5

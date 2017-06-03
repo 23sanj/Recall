@@ -1,0 +1,38 @@
+%Recollect Version 2.3; iPad: ; User: RLB141; Session: 2
+%Span:2,Continent,Difficulty,Game Number,Highest Span Length Achieved,Current Span Length
+%NBack:4,Game Number,Scene/Level Played,Highest N Level Achieved,Current N Level
+%MultiObject:8,Continent,Difficulty,Game Number,Highest Number of Concurrent Bugs,Current Number of Concurrent Bugs
+%LameBack:32,Algorithm,Session,GameNumber,Accuracy,EndingNLevel,HighestNLevel,BayesianEstimates
+32,6,2,0,0.5555556,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9490639;2;0.9275427;3;0.5;4;0.5
+32,6,2,0,0.2857143,3,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9490639;2;0.9275427;3;0;4;0.5
+32,6,2,0,0.6666667,3,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9490639;2;0.8035208;3;0;4;0.5
+32,6,2,0,0.8571429,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9429735;2;0.8059422;3;0;4;0.5
+32,6,2,0,0.6666667,3,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9429735;2;0.8059422;3;0;4;0.5
+32,6,2,0,0.8333333,3,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9429735;2;0.6757318;3;0;4;0.5
+32,6,2,0,0.8571429,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9102234;2;0.6464275;3;0;4;0.5
+32,6,2,0,0.4285714,3,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9102234;2;0.6464275;3;0;4;0.5
+32,6,2,0,1,3,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9102234;2;0.4952137;3;0;4;0.5
+32,6,2,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9102234;2;0.4467938;3;0;4;0.5
+32,6,2,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9102234;2;0.3653674;3;0;4;0.5
+32,6,2,0,0.75,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9102234;2;0.2184176;3;0;4;0.5
+32,6,2,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.9102234;2;0.0741446;3;0;4;0.5
+32,6,2,0,0.8333333,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.7389364;2;0;3;0;4;0.5
+32,6,2,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.7389364;2;0;3;0;4;0.5
+32,6,2,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.566072;2;0;3;0;4;0.5
+32,6,2,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.566072;2;0;3;0;4;0.5
+32,6,3,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.5;2;0;3;0.5;4;0.5
+32,6,3,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.3851309;2;0;3;0.5;4;0.5
+32,6,3,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.3851309;2;0;3;0.5;4;0.5
+32,6,3,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.1904836;2;0;3;0.5;4;0.5
+32,6,3,0,0.8333333,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0.1904836;2;0;3;0.5;4;0.5
+32,6,3,0,0.625,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,0.8571429,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,0.5,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,0.8571429,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,1,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,0.8333333,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5
+32,6,3,0,0.8333333,2,4,BayesianEstimatedAccuracy(nLevel;estimate):1;0;2;0;3;0.5;4;0.5

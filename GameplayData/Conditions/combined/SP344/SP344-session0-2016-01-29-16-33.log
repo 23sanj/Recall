@@ -1,0 +1,60 @@
+% Tunnel Log: 
+% Recall Log Version 2.0 debug seed: 1454113947
+%
+% SegEncNW { '0'=no panel, '1'=empty panel, '2'=player, '3'=match, '4'=nonmatch, '5'=obstacle, '6'=time warp }
+% SegEncN
+% SegEncNE
+% SegEncE
+% SegEncSE
+% SegEncS
+% SegEncSW
+% SegEncW
+% Event Number { 0, inf }
+% Level Number { 0, inf }
+% Task Type { 0=Recess, 1=Color/Sound, 2=Shape/Sound, 3=Sound, 4=AllFeatures }
+% N-Back { 0, inf }
+% Player Roll Base { 0, 359 }
+% Player Roll Offset { 0, 359 }
+% Player Roll Speed { -inf, inf }
+% Player Fuel Timer { -inf, inf }
+% Player Fuel Buffer { -inf, inf }
+% Player Loc { 0=Northwest ... 7=West }
+% Pod Loc { -1=N/A, 0=Northwest ... 7=West }
+% Pod Color { -1=N/A, 0-3, 4=holdout, 5/6=special }
+% Pod Shape { -1=N/A, 0-3, 4=holdout }
+% Pod Sound { -1=N/A, 0-3, 4=holdout }
+% Pod Match { -1=N/A, 0=No, 1=Yes }
+% Pod Taken { -1=N/A, 0=No, 1=Yes }
+% Pod Zapped { -1=N/A, 0=No, 1=Yes }
+% Timestamp (ms)
+% Num Obstacles { 0, inf }
+% Level Ended { 0, 1 }
+% Min Speed { 0, inf }
+% Max Speed { 0, inf }
+% Base Speed { 0, inf }
+% Final Speed { 0, inf }
+% Segment Direction { 0=Northwest ... 7=West }
+% Segment Angle { 0, inf }
+% Segment Panels { 0, inf }
+%
+% SegEncNW SecEncN SegEncNE SegEncE SegEncSE SegEncS SegEncSW SegEncW EventNumber LevelNumber TaskType N-Back PlayerRollBase PlayerRollOffset PlayerRollSpeed PlayerFuelTimer PlayerFuelBuffer PlayerLoc PodLoc PodColor PodShape PodSound PodMatch PodTaken PodZapped Timestamp NumObs LevelEnded MinSpeed MaxSpeed BaseSpeed FinalSpeed SegmentDir SegmentAngle SegmentPanels
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 29.9 0 5 -1 -1 -1 -1 -1 -1 -1 105332 0 0 10 40 15 60 6 0 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 29.7333 0 5 -1 -1 -1 -1 -1 -1 -1 105498 0 0 10 40 15 60 6 0 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 29.5667 0 5 -1 -1 -1 -1 -1 -1 -1 105665 0 0 10 40 15 60 6 0 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 29.4 0 5 -1 -1 -1 -1 -1 -1 -1 105832 0 0 10 40 15 51 6 0 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 29.1333 0 5 -1 -1 -1 -1 -1 -1 -1 106098 0 0 10 40 15 27 5 1 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 28.5 0 5 -1 -1 -1 -1 -1 -1 -1 106732 0 0 10 40 15 15 5 1 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 27.8334 0 5 -1 -1 -1 -1 -1 -1 -1 107398 0 0 10 40 15 15 5 1 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 27.1667 0 5 -1 -1 -1 -1 -1 -1 -1 108065 0 0 10 40 15 15 5 1 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 26.5001 0 5 -1 -1 -1 -1 -1 -1 -1 108732 0 0 10 40 15 15 4 2 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 25.8334 0 5 -1 -1 -1 -1 -1 -1 -1 109398 0 0 10 40 15 15 4 2 3
+0 0 0 0 1 2 4 0 0 0 4 1 0 0 0 25.1667 0 5 6 1 0 0 0 0 0 110065 0 0 10 40 15 15 4 2 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 24.5001 0 5 -1 -1 -1 -1 -1 -1 -1 110731 0 0 10 40 15 15 4 2 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 23.8334 0 5 -1 -1 -1 -1 -1 -1 -1 111398 0 0 10 40 15 15 0 0 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 23.1668 0 5 -1 -1 -1 -1 -1 -1 -1 112065 0 0 10 40 15 15 0 0 3
+0 0 0 0 4 2 1 0 0 0 4 1 0 0 0 22.5001 0 5 4 0 1 1 0 0 0 112731 0 0 10 40 15 15 0 0 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 21.8335 0 5 -1 -1 -1 -1 -1 -1 -1 130598 0 0 10 40 15 15 0 0 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 21.1668 0 5 -1 -1 -1 -1 -1 -1 -1 138400 0 0 10 40 15 15 8 0 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 20.8668 2.28811 5 -1 -1 -1 -1 -1 -1 -1 139067 0 0 10 40 15.5 15.5 6 0 3
+0 0 0 0 3 2 1 0 0 0 4 1 0 0 0 20.8668 1.63367 5 4 0 1 1 1 1 1 139700 0 0 10 40 15.5 15.5 6 0 3
+0 0 0 0 1 2 1 0 0 0 4 1 0 0 0 20.8668 0.979224 5 -1 -1 -1 -1 -1 -1 -1 140334 0 0 10 40 15.5 15.5 6 0 3

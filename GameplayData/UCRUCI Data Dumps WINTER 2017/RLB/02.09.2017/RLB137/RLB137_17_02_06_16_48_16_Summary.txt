@@ -1,0 +1,20 @@
+%Recollect Version 2.3; iPad: ; User: RLB137;
+%Span:2,Continent,Difficulty,Game Number,Highest Span Length Achieved,Current Span Length
+%NBack:4,Game Number,Scene/Level Played,Highest N Level Achieved,Current N Level
+%MultiObject:8,Continent,Difficulty,Game Number,Highest Number of Concurrent Bugs,Current Number of Concurrent Bugs
+%LameBack:32,Algorithm,Session,GameNumber,Accuracy,EndingNLevel,HighestNLevel,BayesianEstimates
+32,7,0,8,0.8333333,1,0,BayesianEstimatedAccuracy(nLevel;estimate):
+32,7,0,8,0.8571429,2,2,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899
+32,7,0,8,0.5555556,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.6713791
+32,7,0,8,0.3636364,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.6609055
+32,7,0,8,0.5555556,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.7069592
+32,7,0,8,0.4444444,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.6942898
+32,7,0,8,0.8333333,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.7586712
+32,7,0,8,0.3333333,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.6913497
+32,7,0,8,0.5454546,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.6610599
+32,7,0,8,0.3333333,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.5834484
+32,7,0,8,0.6666667,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.5514344
+32,7,0,8,0.7142857,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.5072613
+32,7,0,8,0.8333333,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8686899;3;0.4587144
+32,7,0,8,0.75,3,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8689477;3;0.3744768
+32,7,0,8,0.75,2,3,BayesianEstimatedAccuracy(nLevel;estimate):1;1;2;0.8689477;3;0.3744768

@@ -1,0 +1,24 @@
+%Recollect Version 2.3; iPad: ; User: RLB142; Session: 22
+%D2:0,AssessmentNumber,Hit,Miss,FalseAlarm,CorrectRejection,TimeStarted,TimeFinished
+%MatrixReasoning:1,AssessmentNumber,ProblemSet,Hit,Miss,NoResponse,TimeStarted,TimeFinished
+%HeartsAndFlowers:2,AssessmentNumber,Hit,Miss,NoResponse,TimeStarted,TimeFinished
+%LetterNumberSpan:3,AssessmentNumber,Hit,Miss,TimeStarted,TimeFinished
+%CorsiBlocks:4,AssessmentNumber,LongestForwardSequenceLength,LongestReverseSequenceLength,TimeStarted,TimeFinished
+%NearTransfer:5,GameNumber,BlockNumber,Trials,Hits,Misses,FalseAlarms,CurrentNLevel,HighestNLevel
+%SymmetrySpan:6,AssessmentNumber,LongestSequenceLengthHit,LongestSequenceLengthHitCount,SymmetryAccuracy,TimeStarted,TimeFinished
+1,1,Mset2,29,13,0,1487899719795,1487900243915
+3,2,15,6,1487900316718,1487900670469
+6,3,2,3,0.952381,1487900814922,1487901007291
+0,4,220,7,3,260,1487901016211,1487901268055
+4,5,6,7,1487901773115,1487901977873
+5,6,0,11,3,0,0,1,2
+5,6,1,21,6,0,0,1,2
+5,6,2,12,3,0,0,2,2
+5,6,3,22,6,0,1,2,2
+5,6,4,13,3,0,0,3,3
+5,6,5,23,5,1,3,3,3
+5,6,6,21,6,0,0,1,3
+5,6,7,22,6,0,0,2,3
+5,6,8,23,6,0,2,3,3
+5,6,9,24,4,2,4,4,4
+2,7,48,0,0,1487902689527,1487902772599

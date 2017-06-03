@@ -1,0 +1,6 @@
+%Recollect Version 2.3. Scene/Level: , Session: 0, GameNumber: 1
+%Note: All true/false values are represented as "1" and "0" respectively.
+%Damage:1,Player X Position,Player Y Position,Hearts Left,Time (Relative),Time (Absolute)
+%LameBackObject:AlgorithmCondition,BlockNumber,Trial,CurrentNLevel,LureRate,IsCorrect,StimulusType,StimulusColor,PresentationTime(R),PresentationTime(A),ResponseTime(R),ResponseTime(A),ExpireTime(R),ExpireTime(A)
+%Possible values for "Color":Red=0,Blue=1,Green=2,Yellow=3,Purple=4,LightBlue=5,Brown=6,White=7,Gray=8,
+%Possible values for "Type":NonTarget=0,Target=1,Lure=2,LessThanN=3,

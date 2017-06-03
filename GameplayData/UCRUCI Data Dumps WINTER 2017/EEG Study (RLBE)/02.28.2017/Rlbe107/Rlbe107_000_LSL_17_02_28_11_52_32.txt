@@ -1,0 +1,19 @@
+%Recollect Version 2.3, Session: 0
+%EventNumber,EventType,Data1,Data2,iPadTime,UnixTimeMS
+%EventType {0=StartMode, 1=BlockBegin, 2=BlockEnd, 3=StimulusPresented, 4=StimulusInteraction, 5=StimulusTimedOut, 6=Heartbeat, 7=DamageTaken, 8=AssessmentBegin, 9=AssessmentEnd, 10=BreakBegin, 11=BreakEnd}
+%EventData Breakout:
+%  StartMode {Data1=SessionNumber, Data2=GameMode}
+%  BlockBegin {Data1=BlockNumber, Data2=NLevel}
+%  BlockEnd {Data1=BlockNumber, Data2=NLevel}
+%  StimulusPresented {Data1=TrialType, Data2=Color}
+%  StimulusInteraction {Data1=TrialType, Data2=CorrectResponse}
+%  StimulusTimedOut {Data1=TrialType, Data2=CorrectResponse}
+%  Heartbeat {Data1=Enumeration, Data2=-}
+%  DamageTaken {Data1=LivesRemaining, Data2=-}
+%  AssessmentBegin {Data1=AssessmentNumber, Data2=-}
+%  AssessmentEnd {Data1=AssessmentNumber, Data2=-}
+%  BreakBegin {Data1=SessionNumber, Data2=-}
+%  BreakEnd {Data1=SessionNumber, Data2=-}
+%AssessmentNumber {0=MatrixReasoning, 1=LetterNumberTask, 2=SymmetrySpan, 3=CancellationTask, 4=Break, 5=CorsiBlocks, 6=NearTransfer, 7=DogsAndMonkeys}
+%GameMode {0=Recollect, 1=LameBack, 2=Assessments}
+0,6,0,-1,53503,1488311562595

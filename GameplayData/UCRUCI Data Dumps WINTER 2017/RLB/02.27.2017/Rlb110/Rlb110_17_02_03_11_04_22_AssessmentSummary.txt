@@ -1,0 +1,24 @@
+%Recollect Version 2.3; iPad: ; User: Rlb110;
+%D2:0,AssessmentNumber,Hit,Miss,FalseAlarm,CorrectRejection,TimeStarted,TimeFinished
+%MatrixReasoning:1,AssessmentNumber,ProblemSet,Hit,Miss,NoResponse,TimeStarted,TimeFinished
+%HeartsAndFlowers:2,AssessmentNumber,Hit,Miss,NoResponse,TimeStarted,TimeFinished
+%LetterNumberSpan:3,AssessmentNumber,Hit,Miss,TimeStarted,TimeFinished
+%CorsiBlocks:4,AssessmentNumber,LongestForwardSequenceLength,LongestReverseSequenceLength,TimeStarted,TimeFinished
+%NearTransfer:5,GameNumber,BlockNumber,Trials,Hits,Misses,FalseAlarms,CurrentNLevel,HighestNLevel
+%SymmetrySpan:6,AssessmentNumber,LongestSequenceLengthHit,LongestSequenceLengthHitCount,SymmetryAccuracy,TimeStarted,TimeFinished
+1,1,Mset2,31,11,0,1486147931230,1486148662599
+3,2,13,5,1486148763938,1486149030962
+6,3,2,3,0.9761904,1486149331105,1486149546177
+0,4,127,79,0,237,1486149666806,1486149918682
+4,5,5,6,1486150405128,1486150573151
+5,6,0,11,2,1,1,1,2
+5,6,1,21,6,0,1,1,2
+5,6,2,12,3,0,1,2,2
+5,6,3,22,4,2,0,2,2
+5,6,4,13,3,0,2,3,3
+5,6,5,23,6,0,2,3,3
+5,6,6,24,4,2,5,4,4
+5,6,7,21,6,0,0,1,4
+5,6,8,22,6,0,0,2,4
+5,6,9,23,5,1,4,3,4
+2,7,48,0,0,1486151431350,1486151528458
